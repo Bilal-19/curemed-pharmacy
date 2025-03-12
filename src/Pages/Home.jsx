@@ -1,21 +1,127 @@
 import Header from "../Components/Header";
+import HeaderCTA from "../Components/HeaderCTA";
+import { NavLink } from "react-router-dom";
 
 export default function Home() {
     return (
         <>
-            <div class="w-full flex justify-between items-center bg-[#0E355D] text-white h-10 text-sm md:text-base">
-                <div className="ml-10">
-                    <a className="mr-4"><i class="fa-solid fa-phone"></i> 03082491543</a>
-                    <a><i class="fa-solid fa-envelope"></i> info@pharmas.com</a>
+            <HeaderCTA />
+            <Header />
+
+            <div className="bg-[url(/home-bg-img.png)] h-80 md:h-150 w-full bg-no-repeat bg-cover absolute">
+                <div class="grid md:grid-cols-2">
+                    <div className="m-12 md:mt-12">
+                        <h1 className="text-3xl md:text-6xl text-white font-medium">Innvoting Health, Improving Lives</h1>
+                        <p className="text-white text-md mt-5 mb-0 pb-0 text-base md:text-[18px]">
+                            We are a leading pharmaceutical company dedicated to developing high-quality healthcare solutions that enhance the well-being of individuals and communities worldwide. Explore our range of products and services designed with innovation and care.
+                        </p>
+                        <NavLink to="/services" className="block md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-20 hover:bg-white hover:text-[#0086FF] font-[600] mr-4">
+                            Explore Our Services
+                        </NavLink>
+                        <NavLink to="/products" className="block md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-20 hover:bg-[#0086FF] hover:text-white font-[600]">
+                            Explore Our Products
+                        </NavLink>
+                    </div>
                 </div>
-                <div className="mr-10">
-                    <a><i class="mr-2 fa-brands fa-facebook-f"></i></a>
-                    <a><i class="mr-2 fa-brands fa-instagram"></i></a>
-                    <a><i class="mr-2 fa-brands fa-twitter"></i></a>
-                    <a><i class="mr-2 fa-brands fa-linkedin-in"></i></a>
+
+                <div class="relative container bg-white mx-auto h-100 top-0 md:-top-10 pb-100">
+                    <div class="grid grid-cols-1 md:grid-cols-2 m-10 pt-10">
+                        <div>
+                            <h2 className="font-medium text-3xl">Our Services</h2>
+                        </div>
+                        <div>
+                            <p className="text-md">
+                                Our services are tailored to support healthcare professionals and clients alike. Whether it's product consultation, healthcare training, or patient support programs, we offer a range of services to enhance the healthcare experience.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 m-8">
+                        <div>
+                            <img src="/service_1.png" alt="" />
+                            <h5 className="font-medium text-lg mt-5">Product Consultation</h5>
+                            <p>
+                                Expert advice on choosing the right pharmaceuticals for your healthcare needs.
+                            </p>
+                        </div>
+
+                        <div>
+                            <img src="/service_2.png" alt="" />
+                            <h5 className="font-medium text-lg mt-5">Healthcare Training Programs</h5>
+                            <p>
+                                Expert advice on choosing the right pharmaceuticals for your healthcare needs.
+                            </p>
+                        </div>
+
+                        <div>
+                            <img src="/service_3.png" alt="" />
+                            <h5 className="font-medium text-lg mt-5">Patient Support Program</h5>
+                            <p>
+                                Expert advice on choosing the right pharmaceuticals for your healthcare needs.
+                            </p>
+                        </div>
+
+                        <div>
+                            <img src="/service_4.png" alt="" />
+                            <h5 className="font-medium text-lg mt-5">Patient Support Program</h5>
+                            <p>
+                                Expert advice on choosing the right pharmaceuticals for your healthcare needs.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <Header />
+
+            {/* Our Products */}
+            <div class="container mx-auto mt-120 relative top-500 md:top-150">
+                <div className="mx-10 flex flex-col md:flex-row md:items-center justify-between">
+                    <div>
+                        <h2 className="font-medium text-3xl">Our Products</h2>
+                        <p>Find out the description, usage and benefits</p>
+                    </div>
+                    <div className="mt-2 md:mt-0">
+                        <NavLink to="/products" className="py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white font-[600]">
+                            Explore Products
+                        </NavLink>
+                    </div>
+                </div>
+
+                <div className="container mx-auto mb-20">
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 m-8">
+                        <div className="border-1 border-gray-300 p-2">
+                            <img className="h-50 w-fit object-cover" src="/paracetamol.jpg" alt="" />
+                            <h5 className="font-medium text-lg mt-5">Paracetamol</h5>
+                            <p>
+                                Relieves pain and reduces fever. Essential for everyday health.
+                            </p>
+                        </div>
+
+                        <div className="border-1 border-gray-300 p-2">
+                            <img className="h-50 w-fit object-cover" src="/Ibuprofen.jpg" alt="" />
+                            <h5 className="font-medium text-lg mt-5">Ibuprofen</h5>
+                            <p>
+                                NSAID used for pain relief and to ease inflammation effectively.
+                            </p>
+                        </div>
+
+                        <div className="border-1 border-gray-300 p-2">
+                            <img className="h-50 w-fit object-cover" src="/Amoxicillin.jpeg" alt="" />
+                            <h5 className="font-medium text-lg mt-5">Amoxicillin</h5>
+                            <p>
+                                Broad-spectrum antibiotic for treating bacterial infections.
+                            </p>
+                        </div>
+
+                        <div className="border-1 border-gray-300 p-2">
+                            <img className="h-50 w-fit object-cover" src="/risek.jpg" alt="" />
+                            <h5 className="font-medium text-lg mt-5">Risek</h5>
+                            <p>
+                                Assists in managing stomach acidity and related discomfort.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
