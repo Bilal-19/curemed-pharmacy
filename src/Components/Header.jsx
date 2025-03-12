@@ -6,16 +6,16 @@ export default function Header() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 
     return (
-        <nav className="bg-white border-b">
+        <nav className="bg-white">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="/company_logo.png" className="h-8" alt="Cure Med Pharmacy Logo" />
+                    <img src="/company_logo.png" alt="Cure Med Pharmacy Logo" />
                 </Link>
 
                 {/* Toggle Button */}
                 <button
                     onClick={() => setIsOpen(!isOpen)}
-                    className="inline-flex items-center p-2 w-10 h-10 justify-center  text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                     aria-controls="navbar-default"
                     aria-expanded={isOpen}
                 >
@@ -27,19 +27,19 @@ export default function Header() {
 
                 {/* Navigation Menu */}
                 <div className={`w-full md:block md:w-auto ${isOpen ? "block" : "hidden"}`} id="navbar-default">
-                    <ul className="font-light flex flex-col p-4 md:p-0 mt-4 md:flex-row rtl:space-x-reverse md:mt-0 md:border-0">
+                    <ul className="font-light flex flex-col p-4 md:p-0 mt-4 md:flex-row rtl:space-x-reverse md:mt-0 md:border-0 ms-start">
                         <li>
                             <NavLink to="/" className="block py-2 px-3">
                                 Home
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/services" className="block py-2 px-3 hover:bg-gray-100">
+                            <NavLink to="/services" className="block py-2 px-3">
                                 Services
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/products" className="block py-2 px-3 hover:bg-gray-100">
+                            <NavLink to="/products" className="block py-2 px-3">
                                 Products
                             </NavLink>
                         </li>
@@ -51,7 +51,7 @@ export default function Header() {
                             </button>
 
                             {isDropdownOpen && (
-                                <div id="dropdown" className="z-10 absolute bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-fit">
+                                <div id="dropdown" className="z-10 absolute bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-30">
                                     <ul className="py-2  text-gray-700">
                                         <li>
                                             <NavLink to="/about" className="block py-2 px-3 hover:bg-gray-100">
