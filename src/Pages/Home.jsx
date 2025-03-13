@@ -8,7 +8,7 @@ export default function Home() {
             <HeaderCTA />
             <Header />
 
-            <div className="bg-[url(/home-bg-img.png)] h-120 md:h-150 w-full bg-no-repeat bg-cover absolute">
+            <div className="bg-[url(/curemed-pharmacy/home-bg-img.png)] h-120 md:h-150 w-full bg-no-repeat bg-cover absolute">
                 <div class="grid md:grid-cols-2">
                     <div className="m-12 md:mt-12">
                         <h1 className="text-3xl md:text-6xl text-white font-medium">Innvoting Health, Improving Lives</h1>
@@ -38,7 +38,7 @@ export default function Home() {
 
                     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 m-8">
                         <div>
-                            <img src="/service_1.png" alt="" />
+                            <img src="/curemed-pharmacy/service_1.png" alt="" />
                             <h5 className="font-medium text-lg mt-5">Product Consultation</h5>
                             <p>
                                 Expert advice on choosing the right pharmaceuticals for your healthcare needs.
@@ -46,7 +46,7 @@ export default function Home() {
                         </div>
 
                         <div>
-                            <img src="/service_2.png" alt="" />
+                            <img src="/curemed-pharmacy/service_2.png" alt="" />
                             <h5 className="font-medium text-lg mt-5">Healthcare Training Programs</h5>
                             <p>
                                 Expert advice on choosing the right pharmaceuticals for your healthcare needs.
@@ -54,7 +54,7 @@ export default function Home() {
                         </div>
 
                         <div>
-                            <img src="/service_3.png" alt="" />
+                            <img src="/curemed-pharmacy/service_3.png" alt="" />
                             <h5 className="font-medium text-lg mt-5">Patient Support Program</h5>
                             <p>
                                 Expert advice on choosing the right pharmaceuticals for your healthcare needs.
@@ -62,7 +62,7 @@ export default function Home() {
                         </div>
 
                         <div>
-                            <img src="/service_4.png" alt="" />
+                            <img src="/curemed-pharmacy/service_4.png" alt="" />
                             <h5 className="font-medium text-lg mt-5">Patient Support Program</h5>
                             <p>
                                 Expert advice on choosing the right pharmaceuticals for your healthcare needs.
@@ -89,7 +89,7 @@ export default function Home() {
                 <div className="container mx-auto mb-20">
                     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 m-8">
                         <div className="border-1 border-gray-300 p-2">
-                            <img className="h-50 w-fit object-cover" src="/paracetamol.jpg" alt="" />
+                            <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/paracetamol.jpg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Paracetamol</h5>
                             <p>
                                 Relieves pain and reduces fever. Essential for everyday health.
@@ -97,7 +97,7 @@ export default function Home() {
                         </div>
 
                         <div className="border-1 border-gray-300 p-2">
-                            <img className="h-50 w-fit object-cover" src="/Ibuprofen.jpg" alt="" />
+                            <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/Ibuprofen.jpg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Ibuprofen</h5>
                             <p>
                                 NSAID used for pain relief and to ease inflammation effectively.
@@ -105,7 +105,7 @@ export default function Home() {
                         </div>
 
                         <div className="border-1 border-gray-300 p-2">
-                            <img className="h-50 w-fit object-cover" src="/Amoxicillin.jpeg" alt="" />
+                            <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/Amoxicillin.jpeg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Amoxicillin</h5>
                             <p>
                                 Broad-spectrum antibiotic for treating bacterial infections.
@@ -113,7 +113,7 @@ export default function Home() {
                         </div>
 
                         <div className="border-1 border-gray-300 p-2">
-                            <img className="h-50 w-fit object-cover" src="/risek.jpg" alt="" />
+                            <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/risek.jpg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Risek</h5>
                             <p>
                                 Assists in managing stomach acidity and related discomfort.
