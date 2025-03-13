@@ -141,9 +141,9 @@ export default function Home() {
 
             <div class="container-fluid mt-10 bg-[url(/curemed-pharmacy/dot-pattern.png)] h-100">
                 <div className="w-1/2 mx-auto text-justify">
-                    <p className="md:pt-25 text-[#0E355D] text-center font-semibold">Our Vision</p>
+                    <p className="pt-10 md:pt-25 text-[#0E355D] text-center font-semibold">Our Vision</p>
                     <h3 className="text-2xl mt-5 font-semibold text-center">We Are The Most Trusted Pharmacy In This Town</h3>
-                    <p className="w-3/4 mx-auto text-center mt-5 font-normal mb-5">At Cure Med, our mission is to improve the health and well-being of individuals and communities through innovative pharmaceutical solutions. We are committed to quality, integrity, and excellence in everything we do.</p>
+                    <p className="w-80 md:w-3/4 mx-auto text-center mt-5 font-normal mb-5">At Cure Med, our mission is to improve the health and well-being of individuals and communities through innovative pharmaceutical solutions. We are committed to quality, integrity, and excellence in everything we do.</p>
                 </div>
             </div>
 
