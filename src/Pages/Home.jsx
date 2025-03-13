@@ -124,19 +124,27 @@ export default function Home() {
             </div>
 
             <div className="container mx-auto md:mt-180">
-            <div class="flex flex-col md:flex-row justify-around items-center">
-                <div className="w-80 md:w-2/5">
-                    <img src="/curemed-pharmacy/about.png" alt="about" className="h-150 object-contain"/>
-                </div>
-                <div className="w-90 md:w-2/5">
-                    <a href="" className="text-[#0D579B] font-semibold">About Us</a>
-                    <h3 className="text-2xl mt-5 font-semibold">Pioneering healthcare solutions for a healthier tomorrow. Transforming patient care with trust and innovation.</h3>
-                    <p className="mt-5 font-normal mb-5">
-                        At Cure Med, we are dedicated to transforming healthcare and enhancing patient outcomes worldwide. With a strong foundation in trust, quality, and innovation, we strive to address the evolving challenges faced by healthcare providers and patients. Our team of experts is committed to developing safe, effective, and accessible pharmaceutical solutions that improve lives. Join us on our journey to foster a healthier world.
-                    </p>
-                    <a href="" className="text-white bg-[#0086FF] rounded-3xl px-5 py-3 font-semibold">Learn More</a>
+                <div class="flex flex-col md:flex-row justify-around items-center">
+                    <div className="w-80 md:w-2/5">
+                        <img src="/curemed-pharmacy/about.png" alt="about" className="h-150 object-contain" />
+                    </div>
+                    <div className="w-80 md:w-2/5">
+                        <a href="" className="text-[#0D579B] font-semibold">About Us</a>
+                        <h3 className="text-2xl mt-5 font-semibold">Pioneering healthcare solutions for a healthier tomorrow. Transforming patient care with trust and innovation.</h3>
+                        <p className="mt-5 font-normal mb-5">
+                            At Cure Med, we are dedicated to transforming healthcare and enhancing patient outcomes worldwide. With a strong foundation in trust, quality, and innovation, we strive to address the evolving challenges faced by healthcare providers and patients. Our team of experts is committed to developing safe, effective, and accessible pharmaceutical solutions that improve lives. Join us on our journey to foster a healthier world.
+                        </p>
+                        <a href="" className="text-white bg-[#0086FF] rounded-3xl px-5 py-3 font-semibold">Learn More</a>
+                    </div>
                 </div>
             </div>
+
+            <div class="container-fluid mt-10 bg-[url(/curemed-pharmacy/dot-pattern.png)] h-100">
+                <div className="w-1/2 mx-auto text-justify">
+                    <p className="md:pt-25 text-[#0E355D] text-center font-semibold">Our Vision</p>
+                    <h3 className="text-2xl mt-5 font-semibold text-center">We Are The Most Trusted Pharmacy In This Town</h3>
+                    <p className="w-3/4 mx-auto text-center mt-5 font-normal mb-5">At Cure Med, our mission is to improve the health and well-being of individuals and communities through innovative pharmaceutical solutions. We are committed to quality, integrity, and excellence in everything we do.</p>
+                </div>
             </div>
 
         </>
