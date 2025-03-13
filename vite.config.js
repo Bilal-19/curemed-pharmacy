@@ -6,6 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     tailwindcss(),
-    react()
+    react(),
   ],
+  base: "https://github.com/Bilal-19/curemed-pharmacy"
 })
