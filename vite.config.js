@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react(),
   ],
-  base: "https://github.com/Bilal-19/curemed-pharmacy"
+  base: "/curemed-pharmacy/"
 })
