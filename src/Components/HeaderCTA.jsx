@@ -6,7 +6,7 @@ export default function HeaderCTA() {
                     <a className="mr-2 md:mr-4"><i class="fa-solid fa-phone"></i> 03082491543</a>
                     <a><i class="fa-solid fa-envelope"></i> info@pharmas.com</a>
                 </div>
-                <div className="mr-10">
+                <div className="mr-2 md:mr-10">
                     <a><i class="mr-1 md:mr-2 fa-brands fa-facebook-f"></i></a>
                     <a><i class="mr-1 md:mr-2 fa-brands fa-instagram"></i></a>
                     <a><i class="mr-1 md:mr-2 fa-brands fa-twitter"></i></a>

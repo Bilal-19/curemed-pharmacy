@@ -73,7 +73,7 @@ export default function Home() {
             </div>
 
             {/* Our Products */}
-            <div class="container mx-auto mt-120 relative top-500 md:top-150 mb-500 md:mb-0">
+            <div class="container mx-auto mt-30 md:mt-120 relative top-500 md:top-150 mb-500 md:mb-0">
                 <div className="mx-10 flex flex-col md:flex-row md:items-center justify-between">
                     <div>
                         <h2 className="font-medium text-3xl">Our Products</h2>
@@ -126,7 +126,7 @@ export default function Home() {
             <div className="container mx-auto md:mt-180">
                 <div class="flex flex-col md:flex-row justify-around items-center">
                     <div className="w-80 md:w-2/5">
-                        <img src="/curemed-pharmacy/about.png" alt="about" className="h-150 object-contain" />
+                        <img src="/curemed-pharmacy/about.png" alt="about" className="w-150 h-150 object-contain" />
                     </div>
                     <div className="w-80 md:w-2/5">
                         <a href="" className="text-[#0D579B] font-semibold">About Us</a>
@@ -139,12 +139,37 @@ export default function Home() {
                 </div>
             </div>
 
-            <div class="container-fluid mt-10 bg-[url(/curemed-pharmacy/dot-pattern.png)] h-100">
-                <div className="w-1/2 mx-auto text-justify">
-                    <p className="pt-10 md:pt-25 text-[#0E355D] text-center font-semibold">Our Vision</p>
-                    <h3 className="text-2xl mt-5 font-semibold text-center">We Are The Most Trusted Pharmacy In This Town</h3>
-                    <p className="w-80 md:w-3/4 mx-auto text-center mt-5 font-normal mb-5">At Cure Med, our mission is to improve the health and well-being of individuals and communities through innovative pharmaceutical solutions. We are committed to quality, integrity, and excellence in everything we do.</p>
+            <div class="container-fluid mt-10 bg-[url(/curemed-pharmacy/dot-pattern.png)] h-fit md:h-200">
+
+                <div className="container mx-auto text-center">
+                    <h2 className="pt-10 md:pt-25 text-[#0E355D] font-semibold">Our Vision</h2>
+                    <h3 className="w-80 md:w-full text-lg md:text-2xl mt-3 md:mt-5 font-semibold">We Are The Most Trusted Pharmacy In This Town</h3>
+                    <p className="w-80 md:w-3/5 mx-auto mt-3 md:mt-5 font-normal mb-5">At Cure Med, our mission is to improve the health and well-being of individuals and communities through innovative pharmaceutical solutions. We are committed to quality, integrity, and excellence in everything we do.</p>
                 </div>
+
+
+               <div class="container mx-auto">
+               <div className="grid grid-cols-1 md:grid-cols-3">
+                    <div className="bg-[#FFFFFF] text-center rounded py-5 px-5 m-10">
+                        <img src="/curemed-pharmacy/quality_assurance.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
+                        <h5 className="text-lg font-bold mb-3">Quality Assurance</h5>
+                        <p>Committed to providing top-quality pharmaceuticals.</p>
+                    </div>
+
+                    <div className="bg-[#FFFFFF] text-center rounded py-5 px-5 m-10">
+                        <img src="/curemed-pharmacy/expertise.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
+                        <h5 className="text-lg font-bold mb-3">Expertise</h5>
+                        <p>Decades of experience in the healthcare industry.</p>
+                    </div>
+
+                    <div className="bg-[#FFFFFF] text-center rounded py-5 px-5 m-10">
+                        <img src="/curemed-pharmacy/customer_support.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
+                        <h5 className="text-lg font-bold mb-3">Customer Support</h5>
+                        <p>Dedicated support for healthcare professionals and clients.</p>
+                    </div>
+                </div>
+               </div>
+
             </div>
 
         </>
