@@ -227,10 +227,10 @@ export default function Home() {
                     <p className="font-normal text-[#FFFFFF]">
                         We invite you to learn more about our products and services. For inquiries or more information, please reach out to us via our contact page
                     </p>
-                    <NavLink to="/services" className="block md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-5 md:mt-20 hover:bg-white hover:text-[#0086FF] font-[600] mr-4">
+                    <NavLink to="/services" className="block md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-10 hover:bg-white hover:text-[#0086FF] font-[600] mr-4">
                         Explore Our Services
                     </NavLink>
-                    <NavLink to="/products" className="block md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-5 md:mt-20 hover:bg-[#0086FF] hover:text-white font-[600]">
+                    <NavLink to="/products" className="block md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-10 hover:bg-[#0086FF] hover:text-white font-[600]">
                         Explore Our Products
                     </NavLink>
                 </div>
