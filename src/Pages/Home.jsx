@@ -210,7 +210,7 @@ export default function Home() {
 
                         <div>
                             <h5 className="ff-poppins text-lg font-medium">80</h5>
-                            <p>Professionalism</p>
+                            <p>Dedication</p>
                         </div>
                     </div>
                     <div className="mt-5 grid grid-cols-3 divide-x-1 border-1 border-gray-300 bg-gray-300">
@@ -218,6 +218,21 @@ export default function Home() {
                         <div></div>
                         <div></div>
                     </div>
+                </div>
+            </div>
+
+            <div className="w-full bg-[url(/curemed-pharmacy/footer-cta-bg.png)] bg-cover bg-no-repeat h-50 md:h-80">
+                <div className="w-4/5 md:w-1/2 text-white m-10 md:m-20">
+                    <h4 className="text-lg md:text-3xl pt-10 md:pt-20 font-semibold ff-poppins mb-5">Your Wellness Starts Here</h4>
+                    <p className="font-normal text-[#FFFFFF]">
+                        We invite you to learn more about our products and services. For inquiries or more information, please reach out to us via our contact page
+                    </p>
+                    <NavLink to="/services" className="block md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-5 md:mt-20 hover:bg-white hover:text-[#0086FF] font-[600] mr-4">
+                        Explore Our Services
+                    </NavLink>
+                    <NavLink to="/products" className="block md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-5 md:mt-20 hover:bg-[#0086FF] hover:text-white font-[600]">
+                        Explore Our Products
+                    </NavLink>
                 </div>
             </div>
 
