@@ -19,9 +19,9 @@ export default function Services() {
                 </div>
             </div>
 
-            <div className="container mx-auto mt-10 mb-10 md:mt-30 md:mb-30">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
-                    <div className="m-5 md:m-10">
+            <div className="container mx-auto mt-15 mb-15 md:mt-30 md:mb-30">
+                <div className="flex flex-col-reverse md:flex-row justify-center items-center">
+                    <div className="md:w-1/2 m-5 md:m-10">
                         <p className="text-base text-[#0E355D] font-semibold ff-plus-js mb-3">Product Consultation</p>
                         <h3 className="text-2xl md:text-4xl font-semibold mb-5 text-[#1B1E21] ff-poppins">
                             Your Trusted Partner in Pharmaceutical Excellence
@@ -34,18 +34,18 @@ export default function Services() {
                         </p>
                         <a className="bg-[#0086FF] rounded-4xl px-8 py-3 text-white hover:bg-[#031E38] hover:cursor-pointer">Learn More</a>
                     </div>
-                    <div className="m-5 md:m-10">
+                    <div className="md:w-1/2 m-5 md:m-10">
                         <img src="/curemed-pharmacy/trusted-partner.png" alt="" className="h-100 object-cover" />
                     </div>
                 </div>
             </div>
 
-            <div className="container mx-auto mt-10 mb-10 md:mt-30 md:mb-30">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
-                    <div className="m-5 md:m-10">
+            <div className="container mx-auto mt-15 mb-15 md:mt-30 md:mb-30">
+                <div className="flex flex-col md:flex-row justify-center items-center">
+                    <div className="md:w-1/2 m-5 md:m-10">
                         <img src="/curemed-pharmacy/health-priority.png" alt="" className="h-100 object-cover" />
                     </div>
-                    <div className="m-5 md:m-10">
+                    <div className="md:w-1/2 m-5 md:m-10">
                         <p className="text-base text-[#0E355D] font-semibold ff-plus-js mb-3">Product Consultation</p>
                         <h3 className="text-2xl md:text-4xl font-semibold mb-5 text-[#1B1E21] ff-poppins">
                             Your Health, Our Priority
@@ -58,13 +58,12 @@ export default function Services() {
                         </p>
                         <a className="bg-[#0086FF] rounded-4xl px-8 py-3 text-white hover:bg-[#031E38] hover:cursor-pointer">Learn More</a>
                     </div>
-
                 </div>
             </div>
 
-            <div className="container mx-auto mt-10 mb-10 md:mt-30 md:mb-30">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
-                    <div className="m-5 md:m-10">
+            <div className="container mx-auto mt-15 mb-15 md:mt-30 md:mb-30">
+                <div className="flex flex-col-reverse md:flex-row justify-center items-center">
+                    <div className="md:w-1/2 m-5 md:m-10">
                         <p className="text-base text-[#0E355D] font-semibold ff-plus-js mb-3">Product Consultation</p>
                         <h3 className="text-2xl md:text-4xl font-semibold mb-5 text-[#1B1E21] ff-poppins">
                             Excellence in Health Solutions
@@ -77,18 +76,18 @@ export default function Services() {
                         </p>
                         <a className="bg-[#0086FF] rounded-4xl px-8 py-3 text-white hover:bg-[#031E38] hover:cursor-pointer">Learn More</a>
                     </div>
-                    <div className="m-5 md:m-10">
+                    <div className="md:w-1/2 m-5 md:m-10">
                         <img src="/curemed-pharmacy/excellence-health-solutions.png" alt="" className="h-100 object-cover" />
                     </div>
                 </div>
             </div>
 
-            <div className="container mx-auto mt-10 mb-10 md:mt-30 md:mb-30">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
-                <div className="m-5 md:m-10">
+            <div className="w-full mt-15 mb-15 md:mt-30 md:mb-30">
+                <div className="flex flex-col md:flex-row justify-center items-center">
+                    <div className="md:w-1/2 m-5 md:m-10 cols-">
                         <img src="/curemed-pharmacy/fingertips-care.png" alt="" className="h-100 object-cover" />
                     </div>
-                    <div className="m-5 md:m-10">
+                    <div className="md:w-1/2 m-5 md:m-10">
                         <p className="text-base text-[#0E355D] font-semibold ff-plus-js mb-3">Product Consultation</p>
                         <h3 className="text-2xl md:text-4xl font-semibold mb-5 text-[#1B1E21] ff-poppins">
                             Comprehensive Care, Right at Your Fingertips
