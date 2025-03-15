@@ -27,7 +27,7 @@ export default function Header() {
 
                 {/* Navigation Menu */}
                 <div className={`w-full md:block md:w-auto ${isOpen ? "block" : "hidden"}`} id="navbar-default">
-                    <ul className="font-light flex flex-col p-4 md:p-0 mt-4 md:flex-row rtl:space-x-reverse md:mt-0 md:border-0 ms-start">
+                    <ul className="font-light flex flex-col md:flex-row justify-center items-center p-4 md:p-0 mt-4 md:flex-row rtl:space-x-reverse md:mt-0 md:border-0 ms-start">
                         <li>
                             <NavLink to="/" className="block py-2 px-3">
                                 Home

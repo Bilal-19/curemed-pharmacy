@@ -10,7 +10,7 @@ export default function Home() {
             <HeaderCTA />
             <Header />
 
-            <div className="bg-[url(/curemed-pharmacy/home-bg-img.png)] h-120 md:h-150 w-full bg-no-repeat bg-cover absolute">
+            <div className="bg-[url(/curemed-pharmacy/home-bg-img.png)] h-120 md:h-180 w-full bg-no-repeat bg-cover absolute">
                 <div class="grid md:grid-cols-2">
                     <div className="m-12 md:mt-12">
                         <h1 className="text-3xl md:text-6xl text-white font-medium">Innvoting Health, Improving Lives</h1>
@@ -26,7 +26,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div class="relative container bg-white mx-auto h-100 top-0 md:-top-10 pb-100 ff-inter">
+                <div class="relative container bg-white mx-auto h-100 top-0 md:-top-5 pb-100 ff-inter">
                     <div class="grid grid-cols-1 md:grid-cols-2 m-10 pt-10">
                         <div>
                             <h2 className="font-medium text-3xl ff-poppins">Our Services</h2>
