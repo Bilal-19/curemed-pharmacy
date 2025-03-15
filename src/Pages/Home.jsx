@@ -1,3 +1,5 @@
+import Footer from "../Components/Footer";
+import FooterCTA from "../Components/FooterCTA";
 import Header from "../Components/Header";
 import HeaderCTA from "../Components/HeaderCTA";
 import { NavLink } from "react-router-dom";
@@ -187,10 +189,10 @@ export default function Home() {
                 </div>
             </div>
 
-            <div class="w-full flex flex-col-reverse md:flex-row bg-[#F5F6FA]">
-                <div class="m-10 md:m-0 md:w-1/2">
+            <div class="w-full flex flex-col-reverse md:flex-row bg-[#F5F6FA] h-fit">
+                <div class="m-10 md:m-0 md:p-0 md:w-1/2">
                     <img src="/curemed-pharmacy/family_medical.png" alt="" /></div>
-                <div class="md:w-1/2 px-10 my-10 md:px-30 md:my-30">
+                <div class="md:w-1/2 px-10 my-10 md:px-30 md:my-18">
                     <h4 className="text-xl md:text-3xl mt-5 font-semibold ff-poppins mb-5">
                         We care beyond what your doctors have prescribed
                     </h4>
@@ -221,67 +223,10 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="w-full bg-[url(/curemed-pharmacy/footer-cta-bg.png)] bg-cover bg-no-repeat h-fit md:h-80 pt-5 pb-5 md:pt-0 md:pb-0">
-                <div className="w-4/5 md:w-1/2 text-white mx-10 md:mx-20">
-                    <h4 className="text-lg md:text-3xl pt-10 md:pt-20 font-semibold ff-poppins mb-5">Your Wellness Starts Here</h4>
-                    <p className="font-normal text-[#FFFFFF]">
-                        We invite you to learn more about our products and services. For inquiries or more information, please reach out to us via our contact page
-                    </p>
-                    <NavLink to="/services" className="block md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-10 hover:bg-white hover:text-[#0086FF] font-[600] mr-4">
-                        Explore Our Services
-                    </NavLink>
-                    <NavLink to="/products" className="block md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-10 hover:bg-[#0086FF] hover:text-white font-[600]">
-                        Explore Our Products
-                    </NavLink>
-                </div>
-            </div>
+           <FooterCTA/>
 
             {/* Footer */}
-            <div class="w-full bg-[#031E38] ff-inter">
-                <div class="grid grid-cols-2 md:grid-cols-6 text-white gap-4 p-10 md:p-20">
-                    <div className="col-span-2">
-                        <img src="/curemed-pharmacy/footer_logo.png" alt="" />
-                        <p>
-                            Explore our range of products and services designed with innovation and care.
-                        </p>
-                    </div>
-
-                    <div className="hidden md:block"></div>
-
-                    <div>
-                        <h6 className="font-bold text-base md:mb-2">Explore</h6>
-                        <NavLink className="block" to="/">Home</NavLink>
-                        <NavLink className="block" to="/products">Products</NavLink>
-                        <NavLink className="block" to="/services">Services</NavLink>
-                    </div>
-
-
-                    <div>
-                        <h6 className="font-bold text-base md:mb-2">Company</h6>
-                        <NavLink className="block" to="/about">About Us</NavLink>
-                        <NavLink className="block" to="/career">Career</NavLink>
-                    </div>
-
-                    <div>
-                        <h6 className="font-bold text-base md:mb-2">Contact</h6>
-                        <a className="block">+923041234567</a>
-                        <a className="block">favorite@doctor.com</a>
-                        <p className="block">Glassplace, Near
-                            Cool Avenue, Boson</p>
-                    </div>
-                </div>
-            </div>
-            <div className="w-full bg-[#FFFFFF] ff-inter text-[#051527] font-medium">
-                <div class="h-15 flex flex-col md:flex-row justify-between items-center">
-                    <div className="md:ml-20">
-                        <p>All Right Reserved. CureMed 2024</p>
-                    </div>
-                    <div className="flex flex-row justify-around md:mr-20">
-                        <p className="mr-10">Terms & Conditions</p>
-                        <p>Privacy Policy</p>
-                    </div>
-                </div>
-            </div>
+            <Footer />
 
         </>
     )
