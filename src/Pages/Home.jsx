@@ -32,7 +32,7 @@ export default function Home() {
                             <h2 className="font-medium text-3xl ff-poppins">Our Services</h2>
                         </div>
                         <div>
-                            <p className="text-md">
+                            <p className="text-md text-[#494B4D]">
                                 Our services are tailored to support healthcare professionals and clients alike. Whether it's product consultation, healthcare training, or patient support programs, we offer a range of services to enhance the healthcare experience.
                             </p>
                         </div>
@@ -42,7 +42,7 @@ export default function Home() {
                         <div>
                             <img src="/curemed-pharmacy/service_1.png" alt="" />
                             <h5 className="font-medium text-lg mt-5">Product Consultation</h5>
-                            <p>
+                            <p className="text-[#494B4D]">
                                 Expert advice on choosing the right pharmaceuticals for your healthcare needs.
                             </p>
                         </div>
@@ -50,7 +50,7 @@ export default function Home() {
                         <div>
                             <img src="/curemed-pharmacy/service_2.png" alt="" />
                             <h5 className="font-medium text-lg mt-5">Healthcare Training Programs</h5>
-                            <p>
+                            <p className="text-[#494B4D]">
                                 Expert advice on choosing the right pharmaceuticals for your healthcare needs.
                             </p>
                         </div>
@@ -58,7 +58,7 @@ export default function Home() {
                         <div>
                             <img src="/curemed-pharmacy/service_3.png" alt="" />
                             <h5 className="font-medium text-lg mt-5">Patient Support Program</h5>
-                            <p>
+                            <p className="text-[#494B4D]">
                                 Expert advice on choosing the right pharmaceuticals for your healthcare needs.
                             </p>
                         </div>
@@ -66,7 +66,7 @@ export default function Home() {
                         <div>
                             <img src="/curemed-pharmacy/service_4.png" alt="" />
                             <h5 className="font-medium text-lg mt-5">Patient Support Program</h5>
-                            <p>
+                            <p className="text-[#494B4D]">
                                 Expert advice on choosing the right pharmaceuticals for your healthcare needs.
                             </p>
                         </div>
@@ -93,7 +93,7 @@ export default function Home() {
                         <div className="border-1 border-gray-300 p-2">
                             <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/paracetamol.jpg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Paracetamol</h5>
-                            <p>
+                            <p className="text-[#494B4D]">
                                 Relieves pain and reduces fever. Essential for everyday health.
                             </p>
                         </div>
@@ -101,7 +101,7 @@ export default function Home() {
                         <div className="border-1 border-gray-300 p-2">
                             <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/Ibuprofen.jpg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Ibuprofen</h5>
-                            <p>
+                            <p className="text-[#494B4D]">
                                 NSAID used for pain relief and to ease inflammation effectively.
                             </p>
                         </div>
@@ -109,7 +109,7 @@ export default function Home() {
                         <div className="border-1 border-gray-300 p-2">
                             <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/Amoxicillin.jpeg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Amoxicillin</h5>
-                            <p>
+                            <p className="text-[#494B4D]">
                                 Broad-spectrum antibiotic for treating bacterial infections.
                             </p>
                         </div>
@@ -117,7 +117,7 @@ export default function Home() {
                         <div className="border-1 border-gray-300 p-2">
                             <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/risek.jpg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Risek</h5>
-                            <p>
+                            <p className="text-[#494B4D]">
                                 Assists in managing stomach acidity and related discomfort.
                             </p>
                         </div>
@@ -133,7 +133,7 @@ export default function Home() {
                     <div className="w-80 md:w-2/5">
                         <a href="" className="text-[#0D579B] font-semibold ff-plus-js">About Us</a>
                         <h3 className="text-3xl mt-5 font-semibold ff-poppins">Pioneering healthcare solutions for a healthier tomorrow. Transforming patient care with trust and innovation.</h3>
-                        <p className="mt-5 font-light mb-5 ff-inter">
+                        <p className="mt-5 text-[#494B4D] mb-5 ff-inter">
                             At Cure Med, we are dedicated to transforming healthcare and enhancing patient outcomes worldwide. With a strong foundation in trust, quality, and innovation, we strive to address the evolving challenges faced by healthcare providers and patients. Our team of experts is committed to developing safe, effective, and accessible pharmaceutical solutions that improve lives. Join us on our journey to foster a healthier world.
                         </p>
                         <a href="" className="text-white bg-[#0086FF] rounded-3xl px-5 py-3 font-semibold ff-inter">Learn More</a>
@@ -146,25 +146,25 @@ export default function Home() {
                 <div className="container mx-auto text-center">
                     <h2 className="pt-10 md:pt-25 text-[#0E355D] font-semibold ff-plus-js">Our Vision</h2>
                     <h3 className="w-80 md:w-full mx-auto text-lg md:text-2xl mt-3 md:mt-5 font-semibold">We Are The Most Trusted Pharmacy In This Town</h3>
-                    <p className="w-80 md:w-3/5 mx-auto mt-3 md:mt-5 font-normal mb-5 text-center">At Cure Med, our mission is to improve the health and well-being of individuals and communities through innovative pharmaceutical solutions. We are committed to quality, integrity, and excellence in everything we do.</p>
+                    <p className="w-80 md:w-3/5 mx-auto mt-3 md:mt-5 text-[#494B4D] mb-5 text-center">At Cure Med, our mission is to improve the health and well-being of individuals and communities through innovative pharmaceutical solutions. We are committed to quality, integrity, and excellence in everything we do.</p>
                 </div>
 
 
                 <div class="container mx-auto mt-10">
-                    <div className="grid grid-cols-1 md:grid-cols-3 md:gap-15">
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-70">
+                    <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4">
+                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-80">
                             <img src="/curemed-pharmacy/quality_assurance.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
                             <h5 className="text-lg font-bold mb-3">Quality Assurance</h5>
                             <p>Committed to providing top-quality pharmaceuticals.</p>
                         </div>
 
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-70">
+                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-80">
                             <img src="/curemed-pharmacy/expertise.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
                             <h5 className="text-lg font-bold mb-3">Expertise</h5>
                             <p>Decades of experience in the healthcare industry.</p>
                         </div>
 
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-70">
+                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-80">
                             <img src="/curemed-pharmacy/customer_support.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
                             <h5 className="text-lg font-bold mb-3">Customer Support</h5>
                             <p>Dedicated support for healthcare professionals and clients.</p>
@@ -179,7 +179,7 @@ export default function Home() {
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
                     <div className="mx-10 md:m-20">
                         <h2 className="pt-10 md:pt-25 text-[#0D579B] font-semibold ff-plus-js">Our Vision</h2>
-                        <p>
+                        <p className="text-[#494B4D]">
                             With over 15 years of expertise, our team combines dedication and deep knowledge to drive advancements in healthcare. Our experience enables us to deliver innovative, reliable solutions tailored to meet the diverse needs of patients and healthcare providers alike.
                         </p>
                     </div>
@@ -196,7 +196,7 @@ export default function Home() {
                     <h4 className="text-xl md:text-3xl mt-5 font-semibold ff-poppins mb-5">
                         We care beyond what your doctors have prescribed
                     </h4>
-                    <p>
+                    <p className="text-[#494B4D]">
                         At Cure Med Pharmas, we believe that true healthcare goes beyond prescriptions. Our commitment is to your overall well-being, ensuring that you receive not just the right medication but also the support, guidance, and care you deserve.
                     </p>
                     <div class="grid grid-cols-3 mt-10">

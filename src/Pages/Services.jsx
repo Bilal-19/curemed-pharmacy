@@ -26,7 +26,7 @@ export default function Services() {
                         <h3 className="text-2xl md:text-4xl font-semibold mb-5 text-[#1B1E21] ff-poppins">
                             Your Trusted Partner in Pharmaceutical Excellence
                         </h3>
-                        <p className="ff-inter mb-5">
+                        <p className="ff-inter mb-5 text-[#494B4D]">
                             At Cure Med, we bring together expertise and innovation to deliver pharmaceutical solutions
                             that you can rely on. Our dedicated team works tirelessly to ensure the highest standards of
                             quality, safety, and effectiveness, providing you with the support you need to make informed
@@ -50,7 +50,7 @@ export default function Services() {
                         <h3 className="text-2xl md:text-4xl font-semibold mb-5 text-[#1B1E21] ff-poppins">
                             Your Health, Our Priority
                         </h3>
-                        <p className="ff-inter mb-5">
+                        <p className="ff-inter mb-5 text-[#494B4D]">
                             Explore our wide range of trusted and effective medicines designed to meet diverse healthcare needs.
                             At Cure Med, we’re committed to providing safe, high-quality pharmaceutical products to help you live
                             healthier. Our selection includes treatments carefully crafted to address everything from everyday
@@ -68,7 +68,7 @@ export default function Services() {
                         <h3 className="text-2xl md:text-4xl font-semibold mb-5 text-[#1B1E21] ff-poppins">
                             Excellence in Health Solutions
                         </h3>
-                        <p className="ff-inter mb-5">
+                        <p className="ff-inter mb-5 text-[#494B4D]">
                             At Cure Med, we are dedicated to enhancing health and wellness through cutting-edge
                             pharmaceutical solutions. Our team of skilled professionals is committed to delivering
                             quality, integrity, and innovation in every product. Trust us to provide the support and
@@ -92,7 +92,7 @@ export default function Services() {
                         <h3 className="text-2xl md:text-4xl font-semibold mb-5 text-[#1B1E21] ff-poppins">
                             Comprehensive Care, Right at Your Fingertips
                         </h3>
-                        <p className="ff-inter mb-5">
+                        <p className="ff-inter mb-5 text-[#494B4D]">
                             At Cure Med, we understand the importance of accessible, reliable, and expert pharmaceutical guidance.
                             Our knowledgeable pharmacists are here to support you with high-quality medicines and personalized
                             consultations, ensuring you receive the best care every step of the way.
