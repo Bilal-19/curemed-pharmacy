@@ -27,7 +27,7 @@ export default function Header() {
 
                 {/* Navigation Menu */}
                 <div className={`w-full md:block md:w-auto ${isOpen ? "block" : "hidden"}`} id="navbar-default">
-                    <ul className="font-light flex flex-col md:flex-row justify-center items-center p-4 md:p-0 mt-4 md:flex-row rtl:space-x-reverse md:mt-0 md:border-0 ms-start">
+                    <ul className="font-light flex flex-col md:flex-row justify-center md:items-center p-4 md:p-0 mt-4 md:flex-row rtl:space-x-reverse md:mt-0 md:border-0 ms-start">
                         <li>
                             <NavLink to="/" className="block py-2 px-3">
                                 Home
@@ -51,29 +51,35 @@ export default function Header() {
                             </button>
 
                             {isDropdownOpen && (
-                                <div id="dropdown" className="z-10 absolute bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-30">
-                                    <ul className="py-2  text-gray-700">
+                                <div id="dropdown" className="z-10 absolute bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-36">
+                                    <ul className="py-2 text-gray-700">
                                         <li>
-                                            <NavLink to="/about" className="block py-2 px-3 hover:bg-gray-100">
+                                            <NavLink to="/about" className="block py-2 px-3 hover:bg-[#0086FF] hover:text-white">
                                                 About Us
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/career" className="block py-2 px-3 hover:bg-gray-100">
+                                            <NavLink to="/career" className="block py-2 px-3 hover:bg-[#0086FF] hover:text-white">
                                                 Career
                                             </NavLink>
                                         </li>
-                                        <li>
-                                            <NavLink to="/contact" className="block py-2 px-3 hover:bg-gray-100">
-                                                Contact
-                                            </NavLink>
-                                        </li>
+
                                     </ul>
                                 </div>
                             )}
                         </li>
+
+                        <li>
+                            <NavLink to="/contact" className="md:hidden block py-2 px-3 bg-[#0086FF] text-white px-5 py-2 rounded-3xl hover:bg-[#0E355D]">
+                                Contact
+                            </NavLink>
+                        </li>
                     </ul>
                 </div>
+
+                <NavLink to="/contact" className="hidden md:block bg-[#0086FF] text-white px-5 py-2 rounded-3xl hover:bg-[#0E355D]">
+                    Contact Us
+                </NavLink>
             </div>
         </nav>
     );
