@@ -12,17 +12,19 @@ export default function Home() {
 
             <div className="bg-[url(/curemed-pharmacy/home-bg-img.png)] h-120 md:h-180 w-full bg-no-repeat bg-cover absolute">
                 <div class="grid md:grid-cols-2">
-                    <div className="m-12 md:mt-12">
+                    <div className="m-5 md:m-12 md:mt-12">
                         <h1 className="text-3xl md:text-6xl text-white font-medium">Innvoting Health, Improving Lives</h1>
                         <p className="text-white text-md mt-5 mb-0 pb-0 text-base md:text-[18px]">
                             We are a leading pharmaceutical company dedicated to developing high-quality healthcare solutions that enhance the well-being of individuals and communities worldwide. Explore our range of products and services designed with innovation and care.
                         </p>
-                        <NavLink to="/services" className="block md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-5 md:mt-20 hover:bg-white hover:text-[#0086FF] font-[600] mr-4">
-                            Explore Our Services
-                        </NavLink>
-                        <NavLink to="/products" className="block md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-5 md:mt-20 hover:bg-[#0086FF] hover:text-white font-[600]">
-                            Explore Our Products
-                        </NavLink>
+                        <div className="mt-5">
+                            <NavLink to="/services" className="md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-5 md:mt-20 hover:bg-white hover:text-[#0086FF] font-[600] mr-4">
+                                Explore Our Services
+                            </NavLink>
+                            <NavLink to="/products" className="md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-5 md:mt-20 hover:bg-[#0086FF] hover:text-white font-[600]">
+                                Explore Our Products
+                            </NavLink>
+                        </div>
                     </div>
                 </div>
 
@@ -152,19 +154,19 @@ export default function Home() {
 
                 <div class="container mx-auto mt-10">
                     <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4">
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-80">
+                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-75">
                             <img src="/curemed-pharmacy/quality_assurance.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
                             <h5 className="text-lg font-bold mb-3">Quality Assurance</h5>
                             <p>Committed to providing top-quality pharmaceuticals.</p>
                         </div>
 
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-80">
+                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-75">
                             <img src="/curemed-pharmacy/expertise.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
                             <h5 className="text-lg font-bold mb-3">Expertise</h5>
                             <p>Decades of experience in the healthcare industry.</p>
                         </div>
 
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-80">
+                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-75">
                             <img src="/curemed-pharmacy/customer_support.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
                             <h5 className="text-lg font-bold mb-3">Customer Support</h5>
                             <p>Dedicated support for healthcare professionals and clients.</p>
@@ -223,7 +225,7 @@ export default function Home() {
                 </div>
             </div>
 
-           <FooterCTA/>
+            <FooterCTA />
 
             {/* Footer */}
             <Footer />
