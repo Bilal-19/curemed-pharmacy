@@ -4,7 +4,7 @@ export default function Footer(){
         <>
             {/* Footer */}
             <div class="w-full bg-[#031E38] ff-inter">
-                <div class="grid grid-cols-2 md:grid-cols-6 text-white gap-4 p-10 md:p-20">
+                <div class="grid grid-cols-2 md:grid-cols-6 text-white gap-4 p-5 md:p-20">
                     <div className="col-span-2">
                         <img src="/curemed-pharmacy/footer_logo.png" alt="" />
                         <p>

@@ -8,9 +8,9 @@ export default function Services() {
             <HeaderCTA />
             <Header />
 
-            <div class="w-full bg-[url(/curemed-pharmacy/service-bg.png)] h-100 bg-cover bg-no-repeat">
+            <div class="w-full bg-[url(/curemed-pharmacy/service-bg.png)] h-90 md:h-100 bg-cover bg-no-repeat">
                 <div class="grid md:grid-cols-2">
-                    <div className="m-12 md:mt-12">
+                    <div className="m-5 md:mt-12">
                         <h1 className="text-3xl md:text-6xl text-white font-medium ff-poppins">Services</h1>
                         <p className="text-white text-lg mt-5 mb-0 pb-0 text-base md:text-[18px]">
                             We offer a comprehensive range of pharmaceutical services, including drug development, distribution, and customized healthcare solutions. Our expert team ensures that every product adheres to the highest medical and regulatory standards.
