@@ -98,7 +98,7 @@ export default function Products() {
                                     <h5 className="text-lg md:text-2xl">Description:</h5>
                                     <p className="font-light">{product.productDesc}</p>
 
-                                    <div className="m-5 ff-inter">
+                                    <div className="ff-inter">
                                         <h5 className="text-lg md:text-2xl">Usage:</h5>
                                         <ul className="font-light">
                                             {product.usage.map((item, key) => (
@@ -107,7 +107,7 @@ export default function Products() {
                                         </ul>
                                     </div>
 
-                                    <div className="m-5 ff-inter">
+                                    <div className="ff-inter">
                                         <h5 className="text-lg md:text-2xl">Benefits:</h5>
                                         <ul className="font-light">
                                             {product.benefits.map((item, key) => (
@@ -116,7 +116,7 @@ export default function Products() {
                                         </ul>
                                     </div>
 
-                                    <div className="m-5 ff-inter">
+                                    <div className="ff-inter">
                                         <h5 className="text-lg md:text-2xl">Precautions:</h5>
                                         <ul className="font-light">
                                             {product.precautions.map((item, key) => (
