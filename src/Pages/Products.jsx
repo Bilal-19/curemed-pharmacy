@@ -80,7 +80,7 @@ export default function Products() {
                         onClick={() => setProduct(null)}
                     >
                         <div
-                            className="w-90 md:w-1/2 max-h-[80vh] overflow-y-auto rounded-xl relative bg-white text-[#1B1E21] border-2 border-gray-300 shadow-lg"
+                            className="w-85 md:w-1/2 max-h-[80vh] overflow-y-auto rounded-xl relative bg-white text-[#1B1E21] border-2 border-gray-300 shadow-lg"
                             onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicking inside
                         >
                             {/* Modal Header */}
@@ -93,38 +93,50 @@ export default function Products() {
                             <hr />
 
                             {/* Modal Content */}
-                            <div className="m-5 ff-inter">
-                                <h5 className="text-lg md:text-2xl">Description:</h5>
-                                <p className="font-light">{product.productDesc}</p>
+                            <div className="m-5 ff-inter flex flex-col-reverse md:flex-row">
+                                <div>
+                                    <h5 className="text-lg md:text-2xl">Description:</h5>
+                                    <p className="font-light">{product.productDesc}</p>
+
+                                    <div className="m-5 ff-inter">
+                                        <h5 className="text-lg md:text-2xl">Usage:</h5>
+                                        <ul className="font-light">
+                                            {product.usage.map((item, key) => (
+                                                <li className="ml-5" key={key}><i className="fa-solid fa-circle-check"></i> {item}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+
+                                    <div className="m-5 ff-inter">
+                                        <h5 className="text-lg md:text-2xl">Benefits:</h5>
+                                        <ul className="font-light">
+                                            {product.benefits.map((item, key) => (
+                                                <li className="ml-5" key={key}><i className="fa-solid fa-circle-check"></i> {item}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+
+                                    <div className="m-5 ff-inter">
+                                        <h5 className="text-lg md:text-2xl">Precautions:</h5>
+                                        <ul className="font-light">
+                                            {product.precautions.map((item, key) => (
+                                                <li className="ml-5" key={key}><i className="fa-solid fa-circle-check"></i> {item}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+
+                                <div>
+                                    <img src={product.imagePath} alt="" />
+                                </div>
                             </div>
 
-                            <div className="m-5 ff-inter">
-                                <h5 className="text-lg md:text-2xl">Usage:</h5>
-                                <ul className="font-light">
-                                    {product.usage.map((item, key) => (
-                                        <li className="ml-5" key={key}><i className="fa-solid fa-circle-check"></i> {item}</li>
-                                    ))}
-                                </ul>
-                            </div>
 
-                            <div className="m-5 ff-inter">
-                                <h5 className="text-lg md:text-2xl">Benefits:</h5>
-                                <ul className="font-light">
-                                    {product.benefits.map((item, key) => (
-                                        <li className="ml-5" key={key}><i className="fa-solid fa-circle-check"></i> {item}</li>
-                                    ))}
-                                </ul>
-                            </div>
-
-                            <div className="m-5 ff-inter">
-                                <h5 className="text-lg md:text-2xl">Precautions:</h5>
-                                <ul className="font-light">
-                                    {product.precautions.map((item, key) => (
-                                        <li className="ml-5" key={key}><i className="fa-solid fa-circle-check"></i> {item}</li>
-                                    ))}
-                                </ul>
-                            </div>
                         </div>
+
+
                     </div>
                 </>
             )}
