@@ -93,7 +93,7 @@ const medicalProductData = [
     prodName: "Ibuprofen (Brufen)",
     productDesc:
       "A nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and lower fever. Often used for headaches, muscle pain, and arthritis.",
-    imagePath: "/curemed-pharmacy/ibrufen.jpeg",
+    imagePath: "/curemed-pharmacy/Ibuprofen.jpg",
     usage: [
       "Relieves mild to moderate pain and reduces fever.",
       "Commonly used for headaches, muscle aches, and arthritis.",

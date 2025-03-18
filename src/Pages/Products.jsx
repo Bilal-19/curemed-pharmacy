@@ -2,10 +2,12 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer"
 import FooterCTA from "../Components/FooterCTA"
 import HeaderCTA from "../Components/HeaderCTA";
+import { useState } from "react";
 
 import { medicalProductData } from "../assets/JS/medical_products";
 
 export default function Products() {
+    const [product, setProduct] = useState(null);
     return (
         <>
             <HeaderCTA />
@@ -33,24 +35,58 @@ export default function Products() {
                 <div class="w-full">
                     {medicalProductData.map((item, key) =>
                     (
-                        <>
-                            <div class="flex flex-col md:flex-row justify-start items-start mb-25 mx-12 ff-inter">
-                                <div className="w-full md:w-1/6">
-                                    <img src={item.imagePath} alt="" className="md:size-40 object-cover" />
-                                </div>
-                                <div className="w-full md:w-3/6 text-justify mr-5">
-                                    <p className="font-semibold uppercase">{item.prodName}</p>
-                                    <p className="text-[#494B4D] mt-2 md:mt-15">{item.productDesc}</p>
-                                </div>
-                                <div>
-                                    <a href="" className="md:w-1/6 text-[#0086FF] font-semibold">Learn More</a>
-                                </div>
-                            </div>
-                        </>
-                    )
 
-                    )}</div>
+                        <div class="flex flex-col md:flex-row justify-start items-start mb-25 mx-12 ff-inter" key={key}>
+                            <div className="w-full md:w-1/6">
+                                <img src={item.imagePath} alt="" className="md:size-40 object-cover" />
+                            </div>
+                            <div className="w-full md:w-3/6 text-justify mr-5">
+                                <p className="font-semibold uppercase">{item.prodName}</p>
+                                <p className="text-[#494B4D] mt-2 md:mt-15">{item.productDesc}</p>
+                            </div>
+                            <div className="md:w-2/6">
+                                <button className="text-[#0086FF] font-semibold hover:cursor-pointer" onClick={() => setProduct(item)}>Learn More</button>
+                            </div>
+                        </div>
+
+                    )
+                    )}
+                </div>
             </div>
+
+            {product &&
+                (
+                    <div className="h-fit w-90 md:w-1/2 rounded-xl mx-auto mt-10 fixed inset-0 bg-[#FFFFFF] text-[#1B1E21] border-2 border-gray-300" key={product.id}>
+                    <div class="flex justify-between m-5">
+                        <h4 className="text-3xl ff-poppins">{product.prodName}</h4>
+                        <button className="rounded border-gray-500 hover:cursor-pointer" onClick={() => setProduct(null)}>
+                            <i class="fa-solid fa-circle-xmark fs-xl"></i>
+                        </button>
+                    </div>
+                    <hr />
+
+                    <div className="m-5 ff-inter">
+                        <h5 className="text-2xl">Description:</h5>
+                        <p className="font-light">{product.productDesc}</p>
+                    </div>
+
+                    <div className="m-5 ff-inter">
+                        <h5 className="text-2xl">Usage:</h5>
+                        <ul className="font-light">{product.usage.map((item,key) => (<li className="ml-5" key={key}>{item}</li>))}</ul>
+                    </div>
+
+                    <div className="m-5 ff-inter">
+                        <h5 className="text-2xl">Benefits:</h5>
+                        <ul className="font-light">{product.benefits.map((item,key) => (<li className="ml-5" key={key}>{item}</li>))}</ul>
+                    </div>
+
+                    <div className="m-5 ff-inter">
+                        <h5 className="text-2xl">Precautions:</h5>
+                        <ul className="font-light">{product.precautions.map((item,key) => (<li className="ml-5" key={key}>{item}</li>))}</ul>
+                    </div>
+                </div>
+                )
+            }
 
             <FooterCTA />
             <Footer />
