@@ -15,7 +15,7 @@ export default function Footer(){
                     <div className="hidden md:block"></div>
 
                     <div>
-                        <h6 className="font-bold text-base md:mb-2">Explore</h6>
+                        <h6 className="font-bold text-base mb-3">Explore</h6>
                         <NavLink className="block" to="/">Home</NavLink>
                         <NavLink className="block" to="/products">Products</NavLink>
                         <NavLink className="block" to="/services">Services</NavLink>
@@ -23,13 +23,13 @@ export default function Footer(){
 
 
                     <div>
-                        <h6 className="font-bold text-base md:mb-2">Company</h6>
+                        <h6 className="font-bold text-base mb-3">Company</h6>
                         <NavLink className="block" to="/about">About Us</NavLink>
                         <NavLink className="block" to="/career">Career</NavLink>
                     </div>
 
                     <div>
-                        <h6 className="font-bold text-base md:mb-2">Contact</h6>
+                        <h6 className="font-bold text-base mb-3">Contact</h6>
                         <a className="block">+923041234567</a>
                         <a className="block">favorite@doctor.com</a>
                         <p className="block">Glassplace, Near
