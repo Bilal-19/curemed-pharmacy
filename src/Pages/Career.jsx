@@ -44,7 +44,7 @@ export default function Career() {
                 {vacancyRecord && (
                     <>
                         <div className="fixed inset-0 z-50 bg-gray-300 bg-opacity-50">
-                            <div className="w-100 md:w-4/5 mx-auto bg-white rounded-xl relative max-h-[80vh] mt-10 border border-gray-200 overflow-y-auto">
+                            <div className="w-80 md:w-4/5 mx-auto bg-white rounded-xl relative max-h-[80vh] mt-10 border border-gray-200 overflow-y-auto">
                                 <div className="flex justify-between items-center p-10">
                                     <h4 className="ff-poppins font-semibold text-[#1B1E21] text-lg md:text-2xl">{vacancyRecord.vacancyName}</h4>
                                     <button className="rounded border-gray-500 hover:cursor-pointer" onClick={() => setVacancyRecord(null)}>
