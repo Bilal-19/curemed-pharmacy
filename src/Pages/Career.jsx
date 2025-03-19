@@ -52,8 +52,8 @@ export default function Career() {
                                     </button>
                                 </div>
 
-                                <div className="flex flex-col md:flex-row justify-around items-start p-10">
-                                    <div className="w-80 md:w-1/3 border border-gray-300 rounded-xl ff-inter p-5">
+                                <div className="flex flex-col md:flex-row justify-around items-start p-5 md:p-10">
+                                    <div className="w-70 md:w-1/3 border border-gray-300 rounded-xl ff-inter p-3 md:p-5">
                                         <p className="text-[#1B1E21] text-[12px]">Location</p>
                                         <p className="text-[#000000] font-medium text-[14px]">{vacancyRecord.location}</p>
                                         <hr className="border border-gray-300 md:w-full my-5" />
@@ -70,7 +70,7 @@ export default function Career() {
                                         <p className="text-[#000000] font-medium text-[14px]">{vacancyRecord.submissionDeadline}</p>
                                     </div>
 
-                                    <div className="w-80 md:w-2/3 md:ml-10 ff-inter mt-5 md:mt-0">
+                                    <div className="w-70 md:w-2/3 md:ml-10 ff-inter mt-5 md:mt-0">
                                         <div className="bg-[#eeeeee] p-1 rounded-xl">
                                             <button className="bg-[#1B1E21] w-1/2 px-1 py-2 rounded-xl text-[#FFFFFF] font-semibold hover:cursor-pointer">Overview</button>
                                             <button className="w-1/2 px-1 py-2 rounded-xl text-[#1B1E21] font-medium hover:cursor-pointer">Application</button>
