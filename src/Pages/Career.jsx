@@ -26,7 +26,7 @@ export default function Career() {
 
                 <div class="w-2/3 flex justify-between mx-3 md:m-10">
                     <p className="ff-plus-js font-semibold">Position</p>
-                    <p className="ff-plus-js font-semibold md:mr-5">Role</p>
+                    <p className="ff-plus-js font-semibold -mr-1 md:mr-5">Role</p>
                 </div>
 
                 {medicalDeptVacancies.map((item, key) => (
@@ -35,7 +35,7 @@ export default function Career() {
                             <p className="ff-plus-js font-semibold text-md md:text-xl">{item.vacancyName}</p>
                             <a className="ff-plus-js font-semibold text-sm md:text-base text-[#0086FF] hover:cursor-pointer">Details</a>
                         </div>
-                        <hr className="w-85 md:w-2/3 md:m-10 border border-gray-300"/> 
+                        <hr className="w-85 md:w-2/3 mx-3 md:m-10 border border-gray-300"/> 
                     </>
                 ))}
             </div>
