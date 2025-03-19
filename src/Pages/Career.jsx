@@ -6,6 +6,7 @@ import { useState } from "react";
 
 export default function Career() {
     const [vacancyRecord, setVacancyRecord] = useState(null)
+    const [activeTab, setActiveTab] = useState("overview")
     return (
         <>
             <HeaderCTA />
@@ -35,7 +36,7 @@ export default function Career() {
                     <>
                         <div class="w-80 md:w-2/3 flex justify-between mx-3 my-4 md:m-10">
                             <p className="ff-plus-js font-semibold text-md md:text-xl">{item.vacancyName}</p>
-                            <a className="ff-plus-js font-semibold text-sm md:text-base text-[#0086FF] hover:cursor-pointer" onClick={() => setVacancyRecord(item)}>Details</a>
+                            <a className="ff-plus-js font-semibold text-sm md:text-base text-[#0086FF] hover:cursor-pointer" onClick={() => { setVacancyRecord(item); setActiveTab("overview") }}>Details</a>
                         </div>
                         <hr className="w-80 md:w-2/3 mx-3 md:m-10 border border-gray-300" />
                     </>
@@ -72,41 +73,84 @@ export default function Career() {
 
                                     <div className="w-70 md:w-2/3 md:ml-10 ff-inter mt-5 md:mt-0">
                                         <div className="bg-[#eeeeee] p-1 rounded-xl">
-                                            <button className="bg-[#1B1E21] w-1/2 px-1 py-2 rounded-xl text-[#FFFFFF] font-semibold hover:cursor-pointer text-sm md:text-base">Overview</button>
-                                            <button className="w-1/2 px-1 py-2 rounded-xl text-[#1B1E21] font-medium hover:cursor-pointer text-sm md:text-base">Application</button>
+                                            <button className={`w-1/2 px-1 py-2 rounded-xl font-semibold hover:cursor-pointer text-sm md:text-base ${activeTab === "overview" ? 'bg-[#1b1e21] text-[#FFFFFF] ' : 'text-[#1B1E21]'}`} onClick={() => setActiveTab("overview")}>Overview</button>
+                                            <button className={`w-1/2 px-1 py-2 rounded-xl font-semibold hover:cursor-pointer text-sm md:text-base ${activeTab === "application" ? 'bg-[#1b1e21] text-[#FFFFFF] ' : 'text-[#1B1E21]'}`} onClick={() => setActiveTab("application")}>Application</button>
                                         </div>
 
-                                        <div className="my-10 text-sm md:text-base w-70">
-                                            <p><span className="font-bold">Job Title: </span>{vacancyRecord.vacancyName}</p>
-                                            <p><span className="font-bold">Location: </span>{vacancyRecord.location}</p>
-                                            <p><span className="font-bold">Job Type: </span>{vacancyRecord.jobType}</p>
-                                        </div>
+                                        {activeTab === "overview" && (
+                                            <>
+                                                <div className="my-10 text-sm md:text-base w-70 md:w-full">
+                                                    <p><span className="font-bold">Job Title: </span>{vacancyRecord.vacancyName}</p>
+                                                    <p><span className="font-bold">Location: </span>{vacancyRecord.location}</p>
+                                                    <p><span className="font-bold">Job Type: </span>{vacancyRecord.jobType}</p>
+                                                </div>
 
-                                        <div className="my-10 text-sm md:text-base w-70">
-                                            <h4 className="font-bold">Overview:</h4>
-                                            <p>{vacancyRecord.jobDesc}</p>
-                                        </div>
+                                                <div className="my-10 text-sm md:text-base w-70 md:w-full">
+                                                    <h4 className="font-bold">Overview:</h4>
+                                                    <p>{vacancyRecord.jobDesc}</p>
+                                                </div>
 
-                                        <div className="my-10 text-sm md:text-base w-70">
-                                            <h4 className="font-bold">Key Responsibilities:</h4>
-                                            <ul className="ml-5">{vacancyRecord.keyResponsibilities.map((value, key) => <li key={key}><i className="fa-solid fa-check"></i> {value}</li>)}</ul>
-                                        </div>
+                                                <div className="my-10 text-sm md:text-base w-70 md:w-full">
+                                                    <h4 className="font-bold">Key Responsibilities:</h4>
+                                                    <ul className="ml-5">{vacancyRecord.keyResponsibilities.map((value, key) => <li key={key}><i className="fa-solid fa-check"></i> {value}</li>)}</ul>
+                                                </div>
 
-                                        <div className="my-10 text-sm md:text-base w-70">
-                                            <h4 className="font-bold">Qualifications:</h4>
-                                            <ul className="ml-5">{vacancyRecord.qualification.map((value, key) => <li key={key}><i className="fa-solid fa-check"></i> {value}</li>)}</ul>
-                                        </div>
+                                                <div className="my-10 text-sm md:text-base w-70 md:w-full">
+                                                    <h4 className="font-bold">Qualifications:</h4>
+                                                    <ul className="ml-5">{vacancyRecord.qualification.map((value, key) => <li key={key}><i className="fa-solid fa-check"></i> {value}</li>)}</ul>
+                                                </div>
 
-                                        <div className="my-10 text-sm md:text-base w-70">
-                                            <h4 className="font-bold">Benefits:</h4>
-                                            <ul className="ml-5">{vacancyRecord.benefits.map((value, key) => <li key={key}><i className="fa-solid fa-check"></i> {value}</li>)}</ul>
-                                        </div>
+                                                <div className="my-10 text-sm md:text-base w-70 md:w-full">
+                                                    <h4 className="font-bold">Benefits:</h4>
+                                                    <ul className="ml-5">{vacancyRecord.benefits.map((value, key) => <li key={key}><i className="fa-solid fa-check"></i> {value}</li>)}</ul>
+                                                </div>
+                                            </>
+                                        )}
+
+                                        {
+                                            activeTab === "application" && (
+                                                <>
+                                                    <div className="w-full">
+                                                        <form action="" autoComplete="off" className="ff-inter">
+                                                            <div className="flex flex-col mt-10 mb-5">
+                                                                <label className="text-sm font-semibold">Name: <span className="text-red-500">*</span></label>
+                                                                <input required type="text" placeholder="Enter your name" className="py-2 px-3 font-medium text-sm focus:outline-gray-300 border border-gray-300 rounded-lg" />
+                                                            </div>
+
+                                                            <div className="flex flex-col my-5">
+                                                                <label className="text-sm font-semibold">Email: <span className="text-red-500">*</span></label>
+                                                                <input required type="email" placeholder="Enter your email" className="py-2 px-3 font-medium text-sm focus:outline-gray-300 border border-gray-300 rounded-lg" />
+                                                            </div>
+
+                                                            <div className="flex flex-col my-5">
+                                                                <label className="text-sm font-semibold">Phone Number: <span className="text-red-500">*</span></label>
+                                                                <input required type="text" placeholder="Enter your phone number" className="py-2 px-3 font-medium text-sm focus:outline-gray-300 border border-gray-300 rounded-lg" />
+                                                            </div>
+
+                                                            <div className="flex flex-col my-5">
+                                                                <label for="resume" className="text-sm font-semibold">Upload Resume: <span className="text-red-500">*</span></label>
+                                                                <input required type="file" id="resume" className="py-2 px-3 text-sm md:py-10 md:px-50 focus:outline-gray-300 border border-dotted border-gray-500 rounded-lg" />
+                                                            </div>
+
+                                                            <div className="flex flex-col my-5">
+                                                                <label className="text-sm font-semibold">Details:</label>
+                                                                <textarea required placeholder="Enter your name" className="py-2 px-3 font-medium text-sm focus:outline-gray-300 border border-gray-300 rounded-lg resize-none" rows="5" />
+                                                            </div>
+
+                                                            <button className="md:my-5 font-semibold bg-[#0086FF] text-white rounded-4xl px-4 py-2 hover:cursor-pointer hover:bg-[#031E38] text-sm md:text-base">Submit Application</button>
+                                                        </form>
+                                                    </div>
+                                                </>
+                                            )
+                                        }
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </>
                 )}
+
+
             </div>
 
             <Footer />
