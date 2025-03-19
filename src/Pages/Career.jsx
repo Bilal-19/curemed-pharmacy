@@ -100,9 +100,13 @@ export default function Career() {
                                                     <ul className="ml-5">{vacancyRecord.qualification.map((value, key) => <li key={key}><i className="fa-solid fa-check"></i> {value}</li>)}</ul>
                                                 </div>
 
-                                                <div className="my-10 text-sm md:text-base w-70 md:w-full">
+                                                <div className="mt-10 text-sm md:text-base w-70 md:w-full">
                                                     <h4 className="font-bold">Benefits:</h4>
                                                     <ul className="ml-5">{vacancyRecord.benefits.map((value, key) => <li key={key}><i className="fa-solid fa-check"></i> {value}</li>)}</ul>
+                                                </div>
+
+                                                <div className="mb-10 mt-3 text-sm md:text-base w-70 md:w-full">
+                                                   <p>If you are passionate about quality and committed to making a positive impact in the pharmaceutical industry, we encourage you to apply!</p>
                                                 </div>
                                             </>
                                         )}
