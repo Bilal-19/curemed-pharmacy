@@ -3,6 +3,8 @@ import FooterCTA from "../Components/FooterCTA";
 import Header from "../Components/Header";
 import HeaderCTA from "../Components/HeaderCTA";
 import { NavLink } from "react-router-dom";
+import ServiceCard from "../Components/ServiceCard";
+import VisionCard from "../Components/VisionCard";
 
 export default function Home() {
     return (
@@ -41,37 +43,10 @@ export default function Home() {
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 m-8">
-                        <div>
-                            <img src="/curemed-pharmacy/service_1.png" alt="" />
-                            <h5 className="font-medium text-lg mt-5">Product Consultation</h5>
-                            <p className="text-[#494B4D]">
-                                Expert advice on choosing the right pharmaceuticals for your healthcare needs.
-                            </p>
-                        </div>
-
-                        <div>
-                            <img src="/curemed-pharmacy/service_2.png" alt="" />
-                            <h5 className="font-medium text-lg mt-5">Healthcare Training Programs</h5>
-                            <p className="text-[#494B4D]">
-                                Expert advice on choosing the right pharmaceuticals for your healthcare needs.
-                            </p>
-                        </div>
-
-                        <div>
-                            <img src="/curemed-pharmacy/service_3.png" alt="" />
-                            <h5 className="font-medium text-lg mt-5">Patient Support Program</h5>
-                            <p className="text-[#494B4D]">
-                                Expert advice on choosing the right pharmaceuticals for your healthcare needs.
-                            </p>
-                        </div>
-
-                        <div>
-                            <img src="/curemed-pharmacy/service_4.png" alt="" />
-                            <h5 className="font-medium text-lg mt-5">Patient Support Program</h5>
-                            <p className="text-[#494B4D]">
-                                Expert advice on choosing the right pharmaceuticals for your healthcare needs.
-                            </p>
-                        </div>
+                        <ServiceCard imgSrc="/curemed-pharmacy/service_1.png" heading="Product Consultation" description="Expert advice on choosing the right pharmaceuticals for your healthcare needs."/>
+                        <ServiceCard imgSrc="/curemed-pharmacy/service_2.png" heading="Healthcare Training Programs" description="Expert advice on choosing the right pharmaceuticals for your healthcare needs."/>
+                        <ServiceCard imgSrc="/curemed-pharmacy/service_3.png" heading="Patient Support Program" description="Expert advice on choosing the right pharmaceuticals for your healthcare needs."/>
+                        <ServiceCard imgSrc="/curemed-pharmacy/service_4.png" heading="Patient Support Program" description="Expert advice on choosing the right pharmaceuticals for your healthcare needs."/>
                     </div>
                 </div>
             </div>
@@ -153,24 +128,10 @@ export default function Home() {
 
 
                 <div class="container mx-auto mt-10">
-                    <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4">
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-75">
-                            <img src="/curemed-pharmacy/quality_assurance.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
-                            <h5 className="text-lg font-bold mb-3">Quality Assurance</h5>
-                            <p>Committed to providing top-quality pharmaceuticals.</p>
-                        </div>
-
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-75">
-                            <img src="/curemed-pharmacy/expertise.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
-                            <h5 className="text-lg font-bold mb-3">Expertise</h5>
-                            <p>Decades of experience in the healthcare industry.</p>
-                        </div>
-
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 m-10 w-75">
-                            <img src="/curemed-pharmacy/customer_support.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
-                            <h5 className="text-lg font-bold mb-3">Customer Support</h5>
-                            <p>Dedicated support for healthcare professionals and clients.</p>
-                        </div>
+                    <div className="flex flex-col md:flex-row justify-around items-center">
+                        <VisionCard imgSrc="/curemed-pharmacy/quality_assurance.png" heading="Quality Assurance" description="Committed to providing top-quality pharmaceuticals."/>
+                        <VisionCard imgSrc="/curemed-pharmacy/expertise.png" heading="Expertise" description="Decades of experience in the healthcare industry."/>
+                        <VisionCard imgSrc="/curemed-pharmacy/customer_support.png" heading="Quality Assurance" description="Dedicated support for healthcare professionals and clients."/>
                     </div>
                 </div>
 

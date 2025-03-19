@@ -1,6 +1,7 @@
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import HeaderCTA from "../Components/HeaderCTA";
+import VisionCard from "../Components/VisionCard";
 
 export default function AboutUs() {
     return (
@@ -60,30 +61,11 @@ export default function AboutUs() {
 
 
                 <div class="w-full mt-10">
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 mx-auto">
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 mx-auto md:m-5 w-70">
-                            <img src="/curemed-pharmacy/quality.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
-                            <h5 className="text-lg font-bold mb-3">Quality</h5>
-                            <p>Committed to providing top-quality pharmaceuticals.</p>
-                        </div>
-
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 mx-auto md:m-5 w-70">
-                            <img src="/curemed-pharmacy/integrity.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
-                            <h5 className="text-lg font-bold mb-3">Integrity</h5>
-                            <p>Decades of experience in the healthcare industry.</p>
-                        </div>
-
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 mx-auto md:m-5 w-70">
-                            <img src="/curemed-pharmacy/innovation.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
-                            <h5 className="text-lg font-bold mb-3">Innovation</h5>
-                            <p>Dedicated support for healthcare professionals and clients.</p>
-                        </div>
-
-                        <div className="bg-[#FFFFFF] text-center rounded-xl pt-3 pb-10 px-5 mx-auto md:m-5 w-70">
-                            <img src="/curemed-pharmacy/quality.png" alt="" className="h-45 pt-10 pb-5 mx-auto" />
-                            <h5 className="text-lg font-bold mb-3">Collaboration</h5>
-                            <p>Dedicated support for healthcare professionals and clients.</p>
-                        </div>
+                    <div className="flex flex-col md:flex-row justify-around items-center">
+                        <VisionCard imgSrc="/curemed-pharmacy/quality.png" heading="Quality" description="Committed to providing top-quality pharmaceuticals."/>
+                        <VisionCard imgSrc="/curemed-pharmacy/integrity.png" heading="Integrity" description="Decades of experience in the healthcare industry."/>
+                        <VisionCard imgSrc="/curemed-pharmacy/innovation.png" heading="Innovation" description="Dedicated support for healthcare professionals and clients."/>
+                        <VisionCard imgSrc="/curemed-pharmacy/quality.png" heading="Collaboration" description="Dedicated support for healthcare professionals and clients."/>
                     </div>
                 </div>
             </div>
