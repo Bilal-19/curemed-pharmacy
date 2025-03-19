@@ -80,7 +80,7 @@ export default function Products() {
                         className="fixed inset-0 flex justify-center items-center z-50 bg-gray-300 text-black bg-opacity-50"
                         onClick={() => setProduct(null)}
                     >
-                        <ProductModal product={product}/>
+                        <ProductModal product={product} setProduct={()=>setProduct(null)}/>
                     </div>
                 </>
             )}

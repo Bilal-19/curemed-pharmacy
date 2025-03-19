@@ -11,7 +11,7 @@ export default function ProductModal(props) {
                 {/* Modal Header */}
                 <div className="flex justify-between items-center m-5">
                     <h4 className="text-xl md:text-3xl ff-poppins">{props.product.prodName}</h4>
-                    <button className="rounded border-gray-500 hover:cursor-pointer" onClick={() => setProduct(null)}>
+                    <button className="rounded border-gray-500 hover:cursor-pointer" onClick={() => props.setProduct(null)}>
                         <i className="fa-solid fa-circle-xmark fs-xl"></i>
                     </button>
                 </div>
