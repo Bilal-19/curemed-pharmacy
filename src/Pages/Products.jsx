@@ -76,10 +76,8 @@ export default function Products() {
             {/* Modal */}
             {product && (
                 <>
-                    <div
-                        className="fixed inset-0 flex justify-center items-center z-50 bg-gray-300 text-black bg-opacity-50"
-                        onClick={() => setProduct(null)}
-                    >
+                    <div className="fixed inset-0 flex justify-center items-center z-50 bg-gray-300 text-black bg-opacity-50"
+                        onClick={() => setProduct(null)}>
                         <ProductModal product={product} setProduct={()=>setProduct(null)}/>
                     </div>
                 </>
