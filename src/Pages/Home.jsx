@@ -15,15 +15,15 @@ export default function Home() {
             <div className="bg-[url(/curemed-pharmacy/home-bg-img.png)] h-120 md:h-180 w-full bg-no-repeat bg-cover absolute">
                 <div class="grid md:grid-cols-2">
                     <div className="m-20 md:mt-12">
-                        <h1 className="text-3xl md:text-5xl text-white font-semibold ff-poppins">Innvoting Health, Improving Lives</h1>
-                        <p className="text-white text-md mt-5 mb-0 pb-0 text-base md:text-lg font-medium ff-inter">
+                        <h1 className="text-3xl md:text-5xl text-white font-semibold ff-poppins animate-fadeIn">Innvoting Health, Improving Lives</h1>
+                        <p className="text-white text-md mt-5 mb-0 pb-0 text-base md:text-lg font-medium ff-inter animate-slideIn">
                             We are a leading pharmaceutical company dedicated to developing high-quality healthcare solutions that enhance the well-being of individuals and communities worldwide. Explore our range of products and services designed with innovation and care.
                         </p>
                         <div className="mt-5 ff-inter">
-                            <NavLink to="/services" className="text-center w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-5 md:mt-20 hover:bg-white hover:text-[#0086FF] font-[600] mr-4">
+                            <NavLink to="/services" className="text-center w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-5 md:mt-20 hover:bg-white hover:text-[#0086FF] font-[600] mr-4 transition duration-200 hover:scale-100">
                                 Explore Our Services
                             </NavLink>
-                            <NavLink to="/products" className="text-center block w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-5 md:mt-20 hover:bg-[#0086FF] hover:text-white font-[600]">
+                            <NavLink to="/products" className="text-center block w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-5 md:mt-20 hover:bg-[#0086FF] hover:text-white font-[600] transition duration-200 hover:scale-100">
                                 Explore Our Products
                             </NavLink>
                         </div>
@@ -33,7 +33,7 @@ export default function Home() {
                 <div class="relative container bg-white mx-auto h-100 top-0 md:-top-5 pb-100 ff-inter">
                     <div class="grid grid-cols-1 md:grid-cols-2 m-10 pt-10">
                         <div>
-                            <h2 className="font-medium text-3xl ff-poppins">Our Services</h2>
+                            <h2 className="font-medium text-3xl ff-poppins transition animate-fadeIn duration-5000">Our Services</h2>
                         </div>
                         <div>
                             <p className="text-md text-[#494B4D]">
@@ -43,10 +43,10 @@ export default function Home() {
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 m-8">
-                        <ServiceCard imgSrc="/curemed-pharmacy/service_1.png" heading="Product Consultation" description="Expert advice on choosing the right pharmaceuticals for your healthcare needs."/>
-                        <ServiceCard imgSrc="/curemed-pharmacy/service_2.png" heading="Healthcare Training Programs" description="Expert advice on choosing the right pharmaceuticals for your healthcare needs."/>
-                        <ServiceCard imgSrc="/curemed-pharmacy/service_3.png" heading="Patient Support Program" description="Expert advice on choosing the right pharmaceuticals for your healthcare needs."/>
-                        <ServiceCard imgSrc="/curemed-pharmacy/service_4.png" heading="Patient Support Program" description="Expert advice on choosing the right pharmaceuticals for your healthcare needs."/>
+                        <ServiceCard imgSrc="/curemed-pharmacy/service_1.png" heading="Personalized Consultation" description="Get tailored recommendations on prescription from our expert pharmacists."/>
+                        <ServiceCard imgSrc="/curemed-pharmacy/service_2.png" heading="Professional Healthcare Training" description="Comprehensive training programs for healthcare professionals."/>
+                        <ServiceCard imgSrc="/curemed-pharmacy/service_3.png" heading="Chronic Care & Patient Assistance" description="Ongoing support for patients managing chronic conditions."/>
+                        <ServiceCard imgSrc="/curemed-pharmacy/service_4.png" heading="Home Delivery & Telepharmacy" description="Convenient home delivery services and virtual consultations."/>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@ export default function Home() {
 
                 <div className="container mx-auto mb-20">
                     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 m-8">
-                        <div className="border-1 border-gray-300 p-2">
+                        <div className="border-1 border-gray-300 p-2 transition duration-200 hover:scale-105">
                             <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/paracetamol.jpg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Paracetamol</h5>
                             <p className="text-[#494B4D]">
@@ -75,7 +75,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className="border-1 border-gray-300 p-2">
+                        <div className="border-1 border-gray-300 p-2 transition duration-200 hover:scale-105">
                             <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/Ibuprofen.jpg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Ibuprofen</h5>
                             <p className="text-[#494B4D]">
@@ -83,7 +83,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className="border-1 border-gray-300 p-2">
+                        <div className="border-1 border-gray-300 p-2 transition duration-200 hover:scale-105">
                             <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/Amoxicillin.jpeg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Amoxicillin</h5>
                             <p className="text-[#494B4D]">
@@ -91,7 +91,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className="border-1 border-gray-300 p-2">
+                        <div className="border-1 border-gray-300 p-2 transition duration-200 hover:scale-105">
                             <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/risek.jpg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Risek</h5>
                             <p className="text-[#494B4D]">
@@ -105,7 +105,7 @@ export default function Home() {
             <div className="container mx-auto md:mt-180">
                 <div class="flex flex-col md:flex-row justify-around items-center">
                     <div className="w-80 md:w-2/5">
-                        <img src="/curemed-pharmacy/about.png" alt="about" className="w-150 h-150 object-contain" />
+                        <img src="/curemed-pharmacy/about.png" alt="about" className="w-150 h-150 object-contain transition duration-200 hover:scale-110" />
                     </div>
                     <div className="w-80 md:w-2/5">
                         <a href="" className="text-[#0D579B] font-semibold ff-plus-js">About Us</a>
@@ -147,14 +147,14 @@ export default function Home() {
                         </p>
                     </div>
                     <div className="m-10">
-                        <img src="/curemed-pharmacy/year-of-experience.png" alt="" />
+                        <img src="/curemed-pharmacy/year-of-experience.png" alt="pharmacy-experience" className="transition duration-200 hover:scale-110" />
                     </div>
                 </div>
             </div>
 
             <div class="w-full flex flex-col-reverse md:flex-row bg-[#F5F6FA] h-fit">
                 <div class="m-10 md:m-0 md:p-0 md:w-1/2">
-                    <img src="/curemed-pharmacy/family_medical.png" alt="" /></div>
+                    <img src="/curemed-pharmacy/family_medical.png" alt="" className="transition duration-200 hover:scale-102" /></div>
                 <div class="md:w-1/2 px-10 my-10 md:px-30 md:my-18">
                     <h4 className="text-xl md:text-3xl mt-5 font-semibold ff-poppins mb-5">
                         We care beyond what your doctors have prescribed

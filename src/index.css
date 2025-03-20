@@ -1,14 +1,37 @@
 @import "tailwindcss";
 
-
-.ff-inter{
-    font-family: "Inter";
+.ff-inter {
+  font-family: "Inter";
 }
 
-.ff-poppins{
-    font-family: "Poppins";
+.ff-poppins {
+  font-family: "Poppins";
 }
 
-.ff-plus-js{
-    font-family: "Plus Jakarta Sans";
+.ff-plus-js {
+  font-family: "Plus Jakarta Sans";
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.animate-slideIn {
+  animation: slideIn 2s ease-in-out forwards;
 }

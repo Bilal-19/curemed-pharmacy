@@ -28,8 +28,8 @@ export default function Products() {
             <div className="w-full bg-[url(/curemed-pharmacy/product-banner.png)] h-82 bg-cover bg-no-repeat">
                 <div className="grid md:grid-cols-2">
                     <div className="m-20 md:mt-12">
-                        <h1 className="text-3xl md:text-6xl text-white font-medium ff-poppins">Products</h1>
-                        <p className="text-white text-lg mt-5 mb-0 pb-0 text-base md:text-lg ff-inter">
+                        <h1 className="text-3xl md:text-6xl text-white font-medium ff-poppins animate-fadeIn">Products</h1>
+                        <p className="text-white text-lg mt-5 mb-0 pb-0 text-base md:text-lg ff-inter animate-slideIn">
                             Discover our wide range of pharmaceutical products, from prescription medications to over-the-counter drugs and wellness supplements. At CureMed, we prioritize quality and efficacy to support your healthcare needs.
                         </p>
                     </div>
@@ -57,7 +57,7 @@ export default function Products() {
                     {medicalProductData.map((item, key) => (
                         <div className="flex flex-col md:flex-row justify-start items-start mb-25 mx-12 ff-inter" key={key}>
                             <div className="w-full md:w-1/6">
-                                <img src={item.imagePath} alt="" className="md:size-40 object-cover" />
+                                <img src={item.imagePath} alt="" className="md:size-40 object-cover transition duration-200 hover:scale-110" />
                             </div>
                             <div className="w-full md:w-3/6 text-justify mr-5">
                                 <p className="font-semibold uppercase">{item.prodName}</p>

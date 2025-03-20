@@ -9,10 +9,10 @@ export default function FooterCTA() {
                         We invite you to learn more about our products and services. For inquiries or more information, please reach out to us via our contact page
                     </p>
                     <div className="mt-2 md:mt-5 ff-inter">
-                        <NavLink to="/services" className="text-center w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-5 hover:bg-white hover:text-[#0086FF] font-[600] mr-4">
+                        <NavLink to="/services" className="text-center w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-5 hover:bg-white hover:text-[#0086FF] font-[600] mr-4 transition duration-200">
                             Explore Our Services
                         </NavLink>
-                        <NavLink to="/products" className="text-center block w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-5 hover:bg-[#0086FF] hover:text-white font-[600]">
+                        <NavLink to="/products" className="text-center block w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-5 hover:bg-[#0086FF] hover:text-white font-[600] transition duration-200">
                             Explore Our Products
                         </NavLink>
                     </div>
