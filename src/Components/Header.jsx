@@ -26,8 +26,8 @@ export default function Header() {
                 </button>
 
                 {/* Navigation Menu */}
-                <div className={`w-full md:block md:w-auto ${isOpen ? "block" : "hidden"}`} id="navbar-default">
-                    <ul className="font-light flex flex-col md:flex-row justify-center md:items-center p-4 md:p-0 mt-4 md:flex-row rtl:space-x-reverse md:mt-0 md:border-0 ms-start">
+                <div className={`w-full md:block md:w-auto ${isOpen ? "block" : "hidden"} ff-inter text-[15px]`} id="navbar-default">
+                    <ul className="font-medium text-[#1B1E21] flex flex-col md:flex-row justify-center md:items-center p-4 md:p-0 mt-4 md:flex-row rtl:space-x-reverse md:mt-0 md:border-0 ms-start">
                         <li>
                             <NavLink to="/" className="block py-2 px-3">
                                 Home

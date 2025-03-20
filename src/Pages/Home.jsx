@@ -14,12 +14,12 @@ export default function Home() {
 
             <div className="bg-[url(/curemed-pharmacy/home-bg-img.png)] h-120 md:h-180 w-full bg-no-repeat bg-cover absolute">
                 <div class="grid md:grid-cols-2">
-                    <div className="m-5 md:m-12 md:mt-12">
-                        <h1 className="text-3xl md:text-6xl text-white font-medium">Innvoting Health, Improving Lives</h1>
-                        <p className="text-white text-md mt-5 mb-0 pb-0 text-base md:text-[18px]">
+                    <div className="m-20 md:mt-12">
+                        <h1 className="text-3xl md:text-5xl text-white font-semibold ff-poppins">Innvoting Health, Improving Lives</h1>
+                        <p className="text-white text-md mt-5 mb-0 pb-0 text-base md:text-lg font-medium ff-inter">
                             We are a leading pharmaceutical company dedicated to developing high-quality healthcare solutions that enhance the well-being of individuals and communities worldwide. Explore our range of products and services designed with innovation and care.
                         </p>
-                        <div className="mt-5">
+                        <div className="mt-5 ff-inter">
                             <NavLink to="/services" className="text-center w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-5 md:mt-20 hover:bg-white hover:text-[#0086FF] font-[600] mr-4">
                                 Explore Our Services
                             </NavLink>
@@ -118,12 +118,12 @@ export default function Home() {
                 </div>
             </div>
 
-            <div class="container-fluid mt-10 bg-[url(/curemed-pharmacy/dot-pattern.png)] h-fit md:h-200">
+            <div class="container-fluid mt-10 bg-[url(/curemed-pharmacy/dot-pattern.png)] pb-10 h-fit md:h-200">
 
                 <div className="container mx-auto text-center">
                     <h2 className="pt-10 md:pt-25 text-[#0E355D] font-semibold ff-plus-js">Our Vision</h2>
-                    <h3 className="w-80 md:w-full mx-auto text-lg md:text-2xl mt-3 md:mt-5 font-semibold">We Are The Most Trusted Pharmacy In This Town</h3>
-                    <p className="w-80 md:w-3/5 mx-auto mt-3 md:mt-5 text-[#494B4D] mb-5 text-center">At Cure Med, our mission is to improve the health and well-being of individuals and communities through innovative pharmaceutical solutions. We are committed to quality, integrity, and excellence in everything we do.</p>
+                    <h3 className="w-80 md:w-2/5 mx-auto text-lg md:text-4xl mt-3 md:mt-5 font-semibold ff-poppins">We Are The Most Trusted Pharmacy In This Town</h3>
+                    <p className="w-80 md:w-2/5 mx-auto mt-3 md:mt-5 text-[#494B4D] mb-5 text-center ff-inter">At Cure Med, our mission is to improve the health and well-being of individuals and communities through innovative pharmaceutical solutions.</p>
                 </div>
 
 
@@ -142,7 +142,7 @@ export default function Home() {
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
                     <div className="mx-10 md:m-20">
                         <h2 className="pt-10 md:pt-25 text-[#0D579B] font-semibold ff-plus-js">Our Vision</h2>
-                        <p className="text-[#494B4D]">
+                        <p className="text-[#1B1E21CC] ff-inter">
                             With over 15 years of expertise, our team combines dedication and deep knowledge to drive advancements in healthcare. Our experience enables us to deliver innovative, reliable solutions tailored to meet the diverse needs of patients and healthcare providers alike.
                         </p>
                     </div>
@@ -159,22 +159,22 @@ export default function Home() {
                     <h4 className="text-xl md:text-3xl mt-5 font-semibold ff-poppins mb-5">
                         We care beyond what your doctors have prescribed
                     </h4>
-                    <p className="text-[#494B4D]">
+                    <p className="text-[#1B1E21CC] ff-inter">
                         At Cure Med Pharmas, we believe that true healthcare goes beyond prescriptions. Our commitment is to your overall well-being, ensuring that you receive not just the right medication but also the support, guidance, and care you deserve.
                     </p>
-                    <div class="grid grid-cols-3 mt-10">
+                    <div class="grid grid-cols-3 mt-10 ff-poppins text-[#1B1E21CC]">
                         <div>
-                            <h5 className="ff-poppins text-lg font-medium">20+</h5>
+                            <h5 className="text-lg font-medium">20+</h5>
                             <p>Experience</p>
                         </div>
 
                         <div>
-                            <h5 className="ff-poppins text-lg font-medium">50+</h5>
+                            <h5 className="text-lg font-medium">50+</h5>
                             <p>Excellence</p>
                         </div>
 
                         <div>
-                            <h5 className="ff-poppins text-lg font-medium">80</h5>
+                            <h5 className="text-lg font-medium">80</h5>
                             <p>Dedication</p>
                         </div>
                     </div>

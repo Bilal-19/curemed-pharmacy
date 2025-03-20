@@ -46,11 +46,11 @@ export default function ContactUs() {
                     <div className="bg-[#F5F6FA] p-10 rounded-2xl">
                         <h3 className="text-2xl ff-poppins font-semibold">Send Message</h3>
                         <form action="" autoComplete="off">
-                            <input required type="text" placeholder="Name" className="ff-inter text-[14px] font-medium w-full focus:outline-gray-400 border-2 border-gray-300 py-2 px-2 bg-[#FFFFFF] mt-5 rounded-lg"/>
-                            <input required type="email" placeholder="Email" className="ff-inter text-[14px] font-medium w-full focus:outline-gray-400 border-2 border-gray-300 py-2 px-2 bg-[#FFFFFF] mt-5 rounded-lg"/>
-                            <input required type="text" placeholder="Phone Number" className="ff-inter text-[14px] font-medium w-full focus:outline-gray-400 border-2 border-gray-300 py-2 px-2 bg-[#FFFFFF] mt-5 rounded-lg" />
+                            <input name="name" required type="text" placeholder="Name" className="ff-inter text-[14px] font-medium w-full focus:outline-gray-400 border-2 border-gray-300 py-2 px-2 bg-[#FFFFFF] mt-5 rounded-lg"/>
+                            <input name="email" required type="email" placeholder="Email" className="ff-inter text-[14px] font-medium w-full focus:outline-gray-400 border-2 border-gray-300 py-2 px-2 bg-[#FFFFFF] mt-5 rounded-lg"/>
+                            <input name="phone" required type="text" placeholder="Phone Number" className="ff-inter text-[14px] font-medium w-full focus:outline-gray-400 border-2 border-gray-300 py-2 px-2 bg-[#FFFFFF] mt-5 rounded-lg" />
                             <textarea name="details" required placeholder="Details" rows="5" className="ff-inter text-[14px] font-medium w-full focus:outline-gray-400 border-2 border-gray-300 py-2 px-2 bg-[#FFFFFF] mt-5 rounded-lg resize-none"></textarea>
-                            <input type="submit" value="Send Message" className="bg-[#0086FF] text-white rounded-4xl px-5 py-2 mt-5 hover:bg-[#0e355d] hover:cursor-pointer"/>
+                            <input type="submit" value="Send Message" className="bg-[#0086FF] text-white rounded-4xl px-5 py-2 mt-5 hover:bg-[#0e355d] hover:cursor-pointer ff-inter font-semibold"/>
                         </form>
                     </div>
                 </div>

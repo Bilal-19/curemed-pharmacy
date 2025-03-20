@@ -10,9 +10,9 @@ export default function Services() {
 
             <div class="w-full bg-[url(/curemed-pharmacy/service-bg.png)] h-90 md:h-100 bg-cover bg-no-repeat">
                 <div class="grid md:grid-cols-2">
-                    <div className="m-5 md:mt-12">
+                    <div className="m-20 md:mt-12">
                         <h1 className="text-3xl md:text-6xl text-white font-medium ff-poppins">Services</h1>
-                        <p className="text-white text-lg mt-5 mb-0 pb-0 text-base md:text-[18px]">
+                        <p className="text-white text-lg mt-5 mb-0 pb-0 text-base md:text-lg ff-inter">
                             We offer a comprehensive range of pharmaceutical services, including drug development, distribution, and customized healthcare solutions. Our expert team ensures that every product adheres to the highest medical and regulatory standards.
                         </p>
                     </div>
@@ -32,7 +32,7 @@ export default function Services() {
                             quality, safety, and effectiveness, providing you with the support you need to make informed
                             health choices.
                         </p>
-                        <a className="bg-[#0086FF] rounded-4xl px-8 py-3 text-white hover:bg-[#031E38] hover:cursor-pointer">Learn More</a>
+                        <a className="bg-[#0086FF] rounded-4xl px-8 py-3 text-white hover:bg-[#031E38] hover:cursor-pointer ff-inter font-semibold">Learn More</a>
                     </div>
                     <div className="md:w-1/2 m-5 md:m-10">
                         <img src="/curemed-pharmacy/trusted-partner.png" alt="" className="h-100 object-cover" />
@@ -56,7 +56,8 @@ export default function Services() {
                             healthier. Our selection includes treatments carefully crafted to address everything from everyday
                             ailments to complex conditions, ensuring the best care for you and your loved ones.
                         </p>
-                        <a className="bg-[#0086FF] rounded-4xl px-8 py-3 text-white hover:bg-[#031E38] hover:cursor-pointer">Learn More</a>
+                        <a className="bg-[#0086FF] rounded-4xl px-8 py-3 text-white hover:bg-[#031E38] hover:cursor-pointer ff-inter font-semibold">Learn More</a>
+
                     </div>
                 </div>
             </div>
@@ -74,7 +75,8 @@ export default function Services() {
                             quality, integrity, and innovation in every product. Trust us to provide the support and
                             expertise you need for optimal health outcomes.
                         </p>
-                        <a className="bg-[#0086FF] rounded-4xl px-8 py-3 text-white hover:bg-[#031E38] hover:cursor-pointer">Learn More</a>
+                        <a className="bg-[#0086FF] rounded-4xl px-8 py-3 text-white hover:bg-[#031E38] hover:cursor-pointer ff-inter font-semibold">Learn More</a>
+
                     </div>
                     <div className="md:w-1/2 m-5 md:m-10">
                         <img src="/curemed-pharmacy/excellence-health-solutions.png" alt="" className="h-100 object-cover" />
@@ -97,7 +99,8 @@ export default function Services() {
                             Our knowledgeable pharmacists are here to support you with high-quality medicines and personalized
                             consultations, ensuring you receive the best care every step of the way.
                         </p>
-                        <a className="bg-[#0086FF] rounded-4xl px-8 py-3 text-white hover:bg-[#031E38] hover:cursor-pointer">Learn More</a>
+                        <a className="bg-[#0086FF] rounded-4xl px-8 py-3 text-white hover:bg-[#031E38] hover:cursor-pointer ff-inter font-semibold">Learn More</a>
+
                     </div>
                 </div>
             </div>
