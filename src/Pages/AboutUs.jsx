@@ -49,10 +49,10 @@ export default function AboutUs() {
 
                 <div class="w-full mt-10">
                     <div className="flex flex-col md:flex-row justify-around items-center">
-                        <VisionCard imgSrc="/curemed-pharmacy/quality.png" heading="Quality" description="Committed to providing top-quality pharmaceuticals." />
-                        <VisionCard imgSrc="/curemed-pharmacy/integrity.png" heading="Integrity" description="Decades of experience in the healthcare industry." />
-                        <VisionCard imgSrc="/curemed-pharmacy/innovation.png" heading="Innovation" description="Dedicated support for healthcare professionals and clients." />
-                        <VisionCard imgSrc="/curemed-pharmacy/quality.png" heading="Collaboration" description="Dedicated support for healthcare professionals and clients." />
+                        <VisionCard imgSrc="/curemed-pharmacy/quality.png" heading="Quality" description="Premium pharmaceuticals with strict safety standards." />
+                        <VisionCard imgSrc="/curemed-pharmacy/integrity.png" heading="Integrity" description="Honest, transparent, and ethical healthcare service." />
+                        <VisionCard imgSrc="/curemed-pharmacy/innovation.png" heading="Innovation" description="Modern solutions for better patient care." />
+                        <VisionCard imgSrc="/curemed-pharmacy/quality.png" heading="Collaboration" description="Strong partnerships for improved healthcare." />
                     </div>
                 </div>
             </div>

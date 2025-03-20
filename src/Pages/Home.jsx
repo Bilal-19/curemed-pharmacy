@@ -20,10 +20,10 @@ export default function Home() {
                             We are a leading pharmaceutical company dedicated to developing high-quality healthcare solutions that enhance the well-being of individuals and communities worldwide. Explore our range of products and services designed with innovation and care.
                         </p>
                         <div className="mt-5 ff-inter">
-                            <NavLink to="/services" className="text-center w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-5 md:mt-20 hover:bg-white hover:text-[#0086FF] font-[600] mr-4 transition duration-200 hover:scale-100">
+                            <NavLink to="/services" className="text-center w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-[#0086FF] rounded-4xl text-white mt-5 mb-20 hover:bg-white hover:text-[#0086FF] font-[600] mr-4 transition duration-200 hover:scale-100">
                                 Explore Our Services
                             </NavLink>
-                            <NavLink to="/products" className="text-center block w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-5 md:mt-20 hover:bg-[#0086FF] hover:text-white font-[600] transition duration-200 hover:scale-100">
+                            <NavLink to="/products" className="text-center block w-fit md:w-2/5 md:inline-block py-2 px-3 md:py-3 md:px-5 text-sm md:text-base bg-white rounded-4xl text-[#0086FF] mt-5 mb-20 hover:bg-[#0086FF] hover:text-white font-[600] transition duration-200 hover:scale-100">
                                 Explore Our Products
                             </NavLink>
                         </div>
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
 
             {/* Our Products */}
-            <div class="container mx-auto mt-50 md:mt-120 relative top-500 md:top-150 mb-500 md:mb-0 ff-inter">
+            <div class="container mx-auto mt-50 md:mt-120 relative top-580 md:top-150 mb-500 md:mb-0 ff-inter">
                 <div className="mx-10 flex flex-col md:flex-row md:items-center justify-between">
                     <div>
                         <h2 className="font-medium text-3xl ff-poppins">Our Products</h2>
