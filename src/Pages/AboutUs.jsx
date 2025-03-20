@@ -13,7 +13,7 @@ export default function AboutUs() {
 
             <div class="w-full bg-[url(/curemed-pharmacy/about-bg.png)] md:h-[333px] bg-cover bg-no-repeat">
                 <div class="grid md:grid-cols-2">
-                    <div className="m-20 md:mt-12">
+                    <div className="m-10 md:m-20 md:mt-12">
                         <h1 className="text-3xl md:text-6xl text-white font-medium ff-poppins md:animate-fadeIn">About Us</h1>
                         <p className="text-white mt-5 mb-0 pb-0 text-base md:text-lg ff-inter md:animate-slideIn">
                             At CureMed, we believe in the power of science and innovation to improve health and well-being. With a dedication to quality, safety, and affordability, we strive to provide cutting-edge pharmaceutical solutions that meet global healthcare standards.

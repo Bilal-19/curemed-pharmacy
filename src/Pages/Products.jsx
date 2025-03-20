@@ -27,7 +27,7 @@ export default function Products() {
             {/* Banner */}
             <div className="w-full bg-[url(/curemed-pharmacy/product-banner.png)] h-82 bg-cover bg-no-repeat">
                 <div className="grid md:grid-cols-2">
-                    <div className="m-20 md:mt-12">
+                    <div className="m-10 md:m-20 md:mt-12">
                         <h1 className="text-3xl md:text-6xl text-white font-medium ff-poppins md:animate-fadeIn">Products</h1>
                         <p className="text-white text-lg mt-5 mb-0 pb-0 text-base md:text-lg ff-inter md:animate-slideIn">
                             Discover our wide range of pharmaceutical products, from prescription medications to over-the-counter drugs and wellness supplements. At CureMed, we prioritize quality and efficacy to support your healthcare needs.
