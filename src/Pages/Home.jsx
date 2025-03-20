@@ -15,8 +15,8 @@ export default function Home() {
             <div className="bg-[url(/curemed-pharmacy/home-bg-img.png)] h-120 md:h-180 w-full bg-no-repeat bg-cover absolute">
                 <div class="grid md:grid-cols-2">
                     <div className="m-20 md:mt-12">
-                        <h1 className="text-3xl md:text-5xl text-white font-semibold ff-poppins animate-fadeIn">Innvoting Health, Improving Lives</h1>
-                        <p className="text-white text-md mt-5 mb-0 pb-0 text-base md:text-lg font-medium ff-inter animate-slideIn">
+                        <h1 className="text-3xl md:text-5xl text-white font-semibold ff-poppins md:animate-fadeIn">Innvoting Health, Improving Lives</h1>
+                        <p className="text-white text-md mt-5 mb-0 pb-0 text-base md:text-lg font-medium ff-inter md:animate-slideIn">
                             We are a leading pharmaceutical company dedicated to developing high-quality healthcare solutions that enhance the well-being of individuals and communities worldwide. Explore our range of products and services designed with innovation and care.
                         </p>
                         <div className="mt-5 ff-inter">
