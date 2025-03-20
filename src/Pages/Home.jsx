@@ -52,7 +52,7 @@ export default function Home() {
             </div>
 
             {/* Our Products */}
-            <div class="container mx-auto mt-50 md:mt-120 relative top-580 md:top-150 mb-500 md:mb-0 ff-inter">
+            <div class="container mx-auto mt-50 md:mt-120 relative top-500 md:top-150 mb-500 md:mb-0 ff-inter">
                 <div className="mx-10 flex flex-col md:flex-row md:items-center justify-between">
                     <div>
                         <h2 className="font-medium text-3xl ff-poppins">Our Products</h2>
