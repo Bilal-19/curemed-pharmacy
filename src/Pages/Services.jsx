@@ -10,7 +10,7 @@ export default function Services() {
             <HeaderCTA />
             <Header />
 
-            <div class="w-full bg-[url(/curemed-pharmacy/service-bg.png)] h-90 md:h-100 bg-cover bg-no-repeat">
+            <div class="w-full bg-[url(/service-bg.png)] h-90 md:h-100 bg-cover bg-no-repeat">
                 <div class="grid md:grid-cols-2">
                     <div className="m-8 md:m-20 md:mt-12">
                         <h1 className="text-3xl md:text-6xl text-white font-medium ff-poppins md:animate-fadeIn">Services</h1>
@@ -27,7 +27,7 @@ export default function Services() {
                             that you can rely on. Our dedicated team works tirelessly to ensure the highest standards of
                             quality, safety, and effectiveness, providing you with the support you need to make informed
                             health choices."
-                imagePath="/curemed-pharmacy/trusted-partner.png"
+                imagePath="/trusted-partner.png"
                 pageName="Product Consultation"
                 isNavigate={true}
             />
@@ -38,7 +38,7 @@ export default function Services() {
                             At Cure Med, we’re committed to providing safe, high-quality pharmaceutical products to help you live
                             healthier. Our selection includes treatments carefully crafted to address everything from everyday
                             ailments to complex conditions, ensuring the best care for you and your loved ones."
-                imagePath="/curemed-pharmacy/health-priority.png"
+                imagePath="/health-priority.png"
                 pageName="Product Consultation"
                 isNavigate={true}
             />
@@ -49,7 +49,7 @@ export default function Services() {
                 pharmaceutical solutions. Our team of skilled professionals is committed to delivering
                 quality, integrity, and innovation in every product. Trust us to provide the support and
                 expertise you need for optimal health outcomes."
-                imagePath="/curemed-pharmacy/excellence-health-solutions.png"
+                imagePath="/excellence-health-solutions.png"
                 pageName="Product Consultation"
                 isNavigate={true}
             />
@@ -59,7 +59,7 @@ export default function Services() {
                 description="At Cure Med, we understand the importance of accessible, reliable, and expert pharmaceutical guidance.
                             Our knowledgeable pharmacists are here to support you with high-quality medicines and personalized
                             consultations, ensuring you receive the best care every step of the way."
-                imagePath="/curemed-pharmacy/fingertips-care.png"
+                imagePath="/fingertips-care.png"
                 pageName="Product Consultation"
                 isNavigate={true}
             />

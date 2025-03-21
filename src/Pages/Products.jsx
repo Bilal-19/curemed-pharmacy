@@ -25,7 +25,7 @@ export default function Products() {
             <Header />
 
             {/* Banner */}
-            <div className="w-full bg-[url(/curemed-pharmacy/product-banner.png)] h-82 bg-cover bg-no-repeat">
+            <div className="w-full bg-[url(/product-banner.png)] h-82 bg-cover bg-no-repeat">
                 <div className="grid md:grid-cols-2">
                     <div className="m-8 md:m-20 md:mt-12">
                         <h1 className="text-3xl md:text-6xl text-white font-medium ff-poppins md:animate-fadeIn">Products</h1>

@@ -12,7 +12,7 @@ export default function Home() {
             <HeaderCTA />
             <Header />
 
-            <div className="bg-[url(/curemed-pharmacy/home-bg-img.png)] h-120 md:h-180 w-full bg-no-repeat bg-cover absolute">
+            <div className="bg-[url(/home-bg-img.png)] h-120 md:h-180 w-full bg-no-repeat bg-cover absolute">
                 <div class="grid md:grid-cols-2">
                     <div className="m-8 md:m-20 md:mt-12">
                         <h1 className="text-3xl md:text-5xl text-white font-semibold ff-poppins md:animate-fadeIn">Innvoting Health, Improving Lives</h1>
@@ -43,10 +43,10 @@ export default function Home() {
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 m-8">
-                        <ServiceCard imgSrc="/curemed-pharmacy/service_1.png" heading="Personalized Consultation" description="Get tailored recommendations on prescription from our expert pharmacists."/>
-                        <ServiceCard imgSrc="/curemed-pharmacy/service_2.png" heading="Professional Healthcare Training" description="Comprehensive training programs for healthcare professionals."/>
-                        <ServiceCard imgSrc="/curemed-pharmacy/service_3.png" heading="Chronic Care & Patient Assistance" description="Ongoing support for patients managing chronic conditions."/>
-                        <ServiceCard imgSrc="/curemed-pharmacy/service_4.png" heading="Home Delivery & Telepharmacy" description="Convenient home delivery services and virtual consultations."/>
+                        <ServiceCard imgSrc="/service_1.png" heading="Personalized Consultation" description="Get tailored recommendations on prescription from our expert pharmacists."/>
+                        <ServiceCard imgSrc="/service_2.png" heading="Professional Healthcare Training" description="Comprehensive training programs for healthcare professionals."/>
+                        <ServiceCard imgSrc="/service_3.png" heading="Chronic Care & Patient Assistance" description="Ongoing support for patients managing chronic conditions."/>
+                        <ServiceCard imgSrc="/service_4.png" heading="Home Delivery & Telepharmacy" description="Convenient home delivery services and virtual consultations."/>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ export default function Home() {
                 <div className="container mx-auto mb-20">
                     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 m-8">
                         <div className="border-1 border-gray-300 p-2 transition duration-200 hover:scale-105">
-                            <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/paracetamol.jpg" alt="" />
+                            <img className="h-50 w-fit object-cover" src="/paracetamol.jpg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Paracetamol</h5>
                             <p className="text-[#494B4D]">
                                 Relieves pain and reduces fever. Essential for everyday health.
@@ -76,7 +76,7 @@ export default function Home() {
                         </div>
 
                         <div className="border-1 border-gray-300 p-2 transition duration-200 hover:scale-105">
-                            <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/Ibuprofen.jpg" alt="" />
+                            <img className="h-50 w-fit object-cover" src="/Ibuprofen.jpg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Ibuprofen</h5>
                             <p className="text-[#494B4D]">
                                 NSAID used for pain relief and to ease inflammation effectively.
@@ -84,7 +84,7 @@ export default function Home() {
                         </div>
 
                         <div className="border-1 border-gray-300 p-2 transition duration-200 hover:scale-105">
-                            <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/Amoxicillin.jpeg" alt="" />
+                            <img className="h-50 w-fit object-cover" src="/Amoxicillin.jpeg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Amoxicillin</h5>
                             <p className="text-[#494B4D]">
                                 Broad-spectrum antibiotic for treating bacterial infections.
@@ -92,7 +92,7 @@ export default function Home() {
                         </div>
 
                         <div className="border-1 border-gray-300 p-2 transition duration-200 hover:scale-105">
-                            <img className="h-50 w-fit object-cover" src="/curemed-pharmacy/risek.jpg" alt="" />
+                            <img className="h-50 w-fit object-cover" src="/risek.jpg" alt="" />
                             <h5 className="font-medium text-lg mt-5">Risek</h5>
                             <p className="text-[#494B4D]">
                                 Assists in managing stomach acidity and related discomfort.
@@ -105,7 +105,7 @@ export default function Home() {
             <div className="container mx-auto md:mt-180">
                 <div class="flex flex-col md:flex-row justify-around items-center">
                     <div className="w-80 md:w-2/5">
-                        <img src="/curemed-pharmacy/about.png" alt="about" className="w-150 h-150 object-contain transition duration-200 hover:scale-110" />
+                        <img src="/about.png" alt="about" className="w-150 h-150 object-contain transition duration-200 hover:scale-110" />
                     </div>
                     <div className="w-80 md:w-2/5">
                         <a href="" className="text-[#0D579B] font-semibold ff-plus-js">About Us</a>
@@ -118,7 +118,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div class="container-fluid mt-10 bg-[url(/curemed-pharmacy/dot-pattern.png)] pb-10 h-fit md:h-200">
+            <div class="container-fluid mt-10 bg-[url(/dot-pattern.png)] pb-10 h-fit md:h-200">
 
                 <div className="container mx-auto text-center">
                     <h2 className="pt-10 md:pt-25 text-[#0E355D] font-semibold ff-plus-js">Our Vision</h2>
@@ -129,9 +129,9 @@ export default function Home() {
 
                 <div class="container mx-auto mt-10">
                     <div className="flex flex-col md:flex-row justify-around items-center">
-                        <VisionCard imgSrc="/curemed-pharmacy/quality_assurance.png" heading="Quality Assurance" description="Committed to providing top-quality pharmaceuticals."/>
-                        <VisionCard imgSrc="/curemed-pharmacy/expertise.png" heading="Expertise" description="Decades of experience in the healthcare industry."/>
-                        <VisionCard imgSrc="/curemed-pharmacy/customer_support.png" heading="Quality Assurance" description="Dedicated support for healthcare professionals and clients."/>
+                        <VisionCard imgSrc="/quality_assurance.png" heading="Quality Assurance" description="Committed to providing top-quality pharmaceuticals."/>
+                        <VisionCard imgSrc="/expertise.png" heading="Expertise" description="Decades of experience in the healthcare industry."/>
+                        <VisionCard imgSrc="/customer_support.png" heading="Quality Assurance" description="Dedicated support for healthcare professionals and clients."/>
                     </div>
                 </div>
 
@@ -147,14 +147,14 @@ export default function Home() {
                         </p>
                     </div>
                     <div className="m-10">
-                        <img src="/curemed-pharmacy/year-of-experience.png" alt="pharmacy-experience" className="transition duration-200 hover:scale-110" />
+                        <img src="/year-of-experience.png" alt="pharmacy-experience" className="transition duration-200 hover:scale-110" />
                     </div>
                 </div>
             </div>
 
             <div class="w-full flex flex-col-reverse md:flex-row bg-[#F5F6FA] h-fit">
                 <div class="m-10 md:m-0 md:p-0 md:w-1/2">
-                    <img src="/curemed-pharmacy/family_medical.png" alt="" className="transition duration-200 hover:scale-102" /></div>
+                    <img src="/family_medical.png" alt="" className="transition duration-200 hover:scale-102" /></div>
                 <div class="md:w-1/2 px-10 my-10 md:px-30 md:my-18">
                     <h4 className="text-xl md:text-3xl mt-5 font-semibold ff-poppins mb-5">
                         We care beyond what your doctors have prescribed

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom"
 export default function FooterCTA() {
     return (
         <>
-            <div className="w-full bg-[url(/curemed-pharmacy/footer-cta-bg.png)] bg-cover bg-no-repeat h-fit md:h-80 pt-5 pb-5 md:pt-0 md:pb-0">
+            <div className="w-full bg-[url(/footer-cta-bg.png)] bg-cover bg-no-repeat h-fit md:h-80 pt-5 pb-5 md:pt-0 md:pb-0">
                 <div className="w-4/5 md:w-1/2 text-white mx-5 md:mx-20">
                     <h4 className="text-lg md:text-3xl pt-10 md:pt-20 font-semibold ff-poppins mb-5">Your Wellness Starts Here</h4>
                     <p className="font-normal text-[#FFFFFF] ff-inter">

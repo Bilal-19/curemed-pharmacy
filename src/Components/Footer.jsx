@@ -6,7 +6,7 @@ export default function Footer(){
             <div class="w-full bg-[#031E38] ff-inter">
                 <div class="grid grid-cols-2 md:grid-cols-6 text-white gap-4 p-5 md:p-20">
                     <div className="col-span-2">
-                        <img src="/curemed-pharmacy/footer_logo.png" alt="" />
+                        <img src="/footer_logo.png" alt="" />
                         <p>
                             Explore our range of products and services designed with innovation and care.
                         </p>

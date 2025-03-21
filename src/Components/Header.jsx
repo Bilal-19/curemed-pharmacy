@@ -9,7 +9,7 @@ export default function Header() {
         <nav className="bg-white ff-inter">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="/curemed-pharmacy/company_logo.png" alt="Cure Med Pharmacy Logo" />
+                    <img src="/company_logo.png" alt="Cure Med Pharmacy Logo" />
                 </Link>
 
                 {/* Toggle Button */}
