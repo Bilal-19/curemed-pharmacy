@@ -16,7 +16,7 @@ export default function ContactUs() {
                     <p className="mt-10 mb-10 ff-inter text-[#494B4D] md:animate-fadeIn">We're here to answer your questions and provide the support you need. Feel free to reach out, and our team will get back to you as soon as possible.</p>
                     <div className="flex items-center ff-inter mb-10">
                         <div>
-                            <img src="/phone.png" alt="" />
+                            <img src="/phone.png" alt="phone icon" />
                         </div>
                         <div className="mx-4">
                             <p className="font-semibold">Phone</p>
@@ -26,7 +26,7 @@ export default function ContactUs() {
 
                     <div className="flex items-center ff-inter mb-10">
                         <div>
-                            <img src="/email.png" alt="" />
+                            <img src="/email.png" alt="email icon" />
                         </div>
                         <div className="mx-4">
                             <p className="font-semibold">Email</p>
@@ -36,7 +36,7 @@ export default function ContactUs() {
 
                     <div className="flex items-center ff-inter mb-10">
                         <div>
-                            <img src="/phone.png" alt="" />
+                            <img src="/location.png" alt="location icon" />
                         </div>
                         <div className="mx-4">
                             <p className="font-semibold">Location</p>

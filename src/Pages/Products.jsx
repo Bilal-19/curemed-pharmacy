@@ -57,7 +57,7 @@ export default function Products() {
                     {medicalProductData.map((item, key) => (
                         <div className="flex flex-col md:flex-row justify-start items-start mb-25 mx-12 ff-inter" key={key}>
                             <div className="w-full md:w-1/6">
-                                <img src={item.imagePath} alt="" className="md:size-40 object-cover transition duration-200 hover:scale-110" />
+                                <img src={item.imagePath} alt={item.prodName} className="md:size-40 object-cover transition duration-200 hover:scale-110" />
                             </div>
                             <div className="w-full md:w-3/6 text-justify mr-5">
                                 <p className="font-semibold uppercase">{item.prodName}</p>

@@ -18,7 +18,7 @@ export default function TextImageCard(props) {
                         )}
                     </div>
                     <div className="md:w-1/2 m-5 md:m-10">
-                        <img src={props.imagePath} alt="" className="h-100 object-cover transition duration-200 hover:scale-110" />
+                        <img src={props.imagePath} alt={props.heading} className="h-100 object-cover transition duration-200 hover:scale-110" />
                     </div>
                 </div>
             </div>

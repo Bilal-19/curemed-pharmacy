@@ -51,7 +51,7 @@ export default function ProductModal(props) {
                         </div>
                     </div>
                     <div>
-                        <img src={props.product.imagePath} alt="" />
+                        <img src={props.product.imagePath} alt={props.product.productDesc} />
                     </div>
                 </div>
             </div>

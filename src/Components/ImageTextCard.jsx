@@ -6,7 +6,7 @@ export default function ImageTextCard(props) {
             <div className="container mx-auto mt-15 mb-15 md:mt-30 md:mb-30">
                 <div className="flex flex-col-reverse md:flex-row justify-center items-center">
                     <div className="md:w-1/2 m-5 md:m-10">
-                        <img src={props.imagePath} alt="" className="h-100 object-cover transition duration-200 hover:scale-110" />
+                        <img src={props.imagePath} alt={props.pageName} className="h-100 object-cover transition duration-200 hover:scale-110" />
                     </div>
                     <div className="md:w-1/2 m-5 md:m-10">
                         <p className="text-base text-[#0E355D] font-semibold ff-plus-js mb-3">{props.pageName}</p>

@@ -71,7 +71,7 @@ export default function AboutUs() {
                     We believe in giving back to the communities we serve. Through various initiatives,
                     we support health education, awareness campaigns, and access to essential.
                 </p>
-                <img src="/society.png" alt="" className="w-4/5 mx-auto" />
+                <img src="/society.png" alt="community commitment" className="w-4/5 mx-auto" />
             </div>
 
             <Footer />
