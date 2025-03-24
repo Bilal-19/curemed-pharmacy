@@ -12,7 +12,7 @@ export default function Career() {
             <HeaderCTA />
             <Header />
 
-            <div class="w-full">
+            <div className="w-full">
                 <div className="w-80 md:w-1/3 mx-3 md:m-10">
                     <p className="text-[#0E355D] font-semibold ff-plus-js md:animate-fadeIn">Career</p>
                     <h1 className="text-2xl md:text-4xl ff-poppins font-semibold mt-2 md:mt-5">Open roles</h1>
@@ -22,19 +22,19 @@ export default function Career() {
                 </div>
             </div>
 
-            <div class="w-full text-[#1B1E21] mb-40">
-                <div class="w-2/3 mx-3 md:m-10">
+            <div className="w-full text-[#1B1E21] mb-40">
+                <div className="w-2/3 mx-3 md:m-10">
                     <h2 className="text-xl md:text-2xl ff-plus-js font-semibold mb-8 md:mb-0">Medical & Clinical Department</h2>
                 </div>
 
-                <div class="w-80 md:w-2/3 flex justify-between mx-3 md:m-10">
+                <div className="w-80 md:w-2/3 flex justify-between mx-3 md:m-10">
                     <p className="ff-plus-js font-semibold">Position</p>
                     <p className="ff-plus-js font-semibold mr-0 md:mr-5">Role</p>
                 </div>
 
                 {medicalDeptVacancies.map((item, key) => (
                     <>
-                        <div class="w-80 md:w-2/3 flex justify-between mx-3 my-4 md:m-10">
+                        <div className="w-80 md:w-2/3 flex justify-between mx-3 my-4 md:m-10">
                             <p className="ff-plus-js font-semibold text-md md:text-xl">{item.vacancyName}</p>
                             <a className="ff-plus-js font-semibold text-sm md:text-base text-[#0086FF] hover:cursor-pointer" onClick={() => { setVacancyRecord(item); setActiveTab("overview") }}>Details</a>
                         </div>

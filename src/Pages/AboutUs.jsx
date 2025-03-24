@@ -11,8 +11,8 @@ export default function AboutUs() {
             <HeaderCTA />
             <Header />
 
-            <div class="w-full bg-[url(/about-bg.png)] md:h-[333px] bg-cover bg-no-repeat">
-                <div class="grid md:grid-cols-2">
+            <div className="w-full bg-[url(/about-bg.png)] md:h-[333px] bg-cover bg-no-repeat">
+                <div className="grid md:grid-cols-2">
                     <div className="m-8 md:m-20 md:mt-12">
                         <h1 className="text-3xl md:text-6xl text-white font-medium ff-poppins md:animate-fadeIn">About Us</h1>
                         <p className="text-white mt-5 mb-0 pb-0 text-base md:text-lg ff-inter md:animate-slideIn">
@@ -38,7 +38,7 @@ export default function AboutUs() {
                 isNavigate={false}
             />
 
-            <div class="container-fluid mt-10 bg-[url(/dot-pattern.png)] pb-10 h-fit md:h-200">
+            <div className="container-fluid mt-10 bg-[url(/dot-pattern.png)] pb-10 h-fit md:h-200">
 
                 <div className="container mx-auto text-center">
                     <h2 className="pt-10 md:pt-25 text-[#0E355D] font-semibold ff-plus-js">Our Vision</h2>
@@ -47,7 +47,7 @@ export default function AboutUs() {
                 </div>
 
 
-                <div class="w-full mt-10">
+                <div className="w-full mt-10">
                     <div className="flex flex-col md:flex-row justify-around items-center">
                         <VisionCard imgSrc="/quality.png" heading="Quality" description="Premium pharmaceuticals with strict safety standards." />
                         <VisionCard imgSrc="/integrity.png" heading="Integrity" description="Honest, transparent, and ethical healthcare service." />
@@ -65,7 +65,7 @@ export default function AboutUs() {
                 isNavigate={false}
             />
 
-            <div class="w-full mt-15 mb-15 md:mt-30 md:mb-30 text-center">
+            <div className="w-full mt-15 mb-15 md:mt-30 md:mb-30 text-center">
                 <h3 className="text-2xl md:text-4xl ff-poppins font-semibold">Our Commitment to Community</h3>
                 <p className="text-base ff-inter font-normal mx-10 md:mx-100 mt-10 mb-10">
                     We believe in giving back to the communities we serve. Through various initiatives,

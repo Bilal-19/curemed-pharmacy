@@ -6,9 +6,11 @@ export default function ContactUs() {
     return (
         <>
             <HeaderCTA />
+
             <Header />
-            <div class="container-fluid flex flex-col md:flex-row justify-between items-start">
-                <div class="w-80 mx-3 mb-10 mt-15 md:w-1/3 md:mx-10 md:mt-10 md:mb-28">
+
+            <div className="container-fluid flex flex-col md:flex-row justify-between items-start">
+                <div className="w-80 mx-3 mb-10 mt-15 md:w-1/3 md:mx-10 md:mt-10 md:mb-28">
                     <p className="text-[#0E355D] font-semibold ff-plus-js">Contact Us</p>
                     <h1 className="text-2xl md:text-4xl ff-poppins font-semibold mt-5 md:animate-fadeIn">Get in touch</h1>
                     <p className="mt-10 mb-10 ff-inter text-[#494B4D] md:animate-fadeIn">We're here to answer your questions and provide the support you need. Feel free to reach out, and our team will get back to you as soon as possible.</p>
@@ -42,7 +44,8 @@ export default function ContactUs() {
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/2 mx-3 mb-10 md:mx-10 md:mt-10 md:mb-28">
+                
+                <div className="md:w-1/2 mx-3 mb-10 md:mx-10 md:mt-10 md:mb-28">
                     <div className="bg-[#F5F6FA] p-10 rounded-2xl">
                         <h3 className="text-2xl ff-poppins font-semibold">Send Message</h3>
                         <form action="" autoComplete="off">

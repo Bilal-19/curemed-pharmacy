@@ -10,8 +10,8 @@ export default function Services() {
             <HeaderCTA />
             <Header />
 
-            <div class="w-full bg-[url(/service-bg.png)] h-90 md:h-100 bg-cover bg-no-repeat">
-                <div class="grid md:grid-cols-2">
+            <div className="w-full bg-[url(/service-bg.png)] h-90 md:h-100 bg-cover bg-no-repeat">
+                <div className="grid md:grid-cols-2">
                     <div className="m-8 md:m-20 md:mt-12">
                         <h1 className="text-3xl md:text-6xl text-white font-medium ff-poppins md:animate-fadeIn">Services</h1>
                         <p className="text-white text-lg mt-5 mb-0 pb-0 text-base md:text-lg ff-inter md:animate-slideIn">

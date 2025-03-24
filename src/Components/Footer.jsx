@@ -3,8 +3,8 @@ export default function Footer(){
     return (
         <>
             {/* Footer */}
-            <div class="w-full bg-[#031E38] ff-inter">
-                <div class="grid grid-cols-2 md:grid-cols-6 text-white gap-4 p-5 md:p-20">
+            <div className="w-full bg-[#031E38] ff-inter">
+                <div className="grid grid-cols-2 md:grid-cols-6 text-white gap-4 p-5 md:p-20">
                     <div className="col-span-2">
                         <img src="/footer_logo.png" alt="" />
                         <p>
@@ -38,7 +38,7 @@ export default function Footer(){
                 </div>
             </div>
             <div className="w-full bg-[#FFFFFF] ff-inter text-[#051527] font-medium">
-                <div class="h-15 flex flex-col md:flex-row justify-between items-center">
+                <div className="h-15 flex flex-col md:flex-row justify-between items-center">
                     <div className="md:ml-20">
                         <p>All Right Reserved. CureMed 2024</p>
                     </div>
