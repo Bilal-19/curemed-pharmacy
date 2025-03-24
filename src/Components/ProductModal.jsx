@@ -23,7 +23,7 @@ export default function ProductModal(props) {
                         <h5 className="text-lg md:text-2xl">Description:</h5>
                         <p className="font-light">{props.product.productDesc}</p>
 
-                        <div className="ff-inter">
+                        <div className="ff-inter mt-5">
                             <h5 className="text-lg md:text-2xl">Usage:</h5>
                             <ul className="font-light">
                                 {props.product.usage.map((item, key) => (
@@ -32,7 +32,7 @@ export default function ProductModal(props) {
                             </ul>
                         </div>
 
-                        <div className="ff-inter">
+                        <div className="ff-inter mt-5">
                             <h5 className="text-lg md:text-2xl">Benefits:</h5>
                             <ul className="font-light">
                                 {props.product.benefits.map((item, key) => (
@@ -41,7 +41,7 @@ export default function ProductModal(props) {
                             </ul>
                         </div>
 
-                        <div className="ff-inter">
+                        <div className="ff-inter mt-5">
                             <h5 className="text-lg md:text-2xl">Precautions:</h5>
                             <ul className="font-light">
                                 {props.product.precautions.map((item, key) => (

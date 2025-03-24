@@ -64,7 +64,7 @@ export default function Career() {
                                         <hr className="border border-gray-300 md:w-full my-2 md:my-5" />
 
                                         <p className="text-[#1B1E21] text-[12px]">Department</p>
-                                        <p className="text-[#000000] font-medium text-[14px]">Pharmacy</p>
+                                        <p className="text-[#000000] font-medium text-[14px]">{vacancyRecord.department}</p>
                                         <hr className="border border-gray-300 md:w-full my-2 md:my-5" />
 
                                         <p className="text-[#1B1E21] text-[12px]">Submission Deadline</p>

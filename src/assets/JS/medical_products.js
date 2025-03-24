@@ -5,7 +5,7 @@ const medicalProductData = [
     prodName: "Aspirin",
     productDesc:
       "Used as a pain reliever, fever reducer, and anti-inflammatory. It's also used to reduce the risk of heart attacks and strokes by preventing blood clot formation.",
-    imagePath: "/curemed-pharmacy/aspirin.jpg",
+    imagePath: "/aspirin.jpg",
     usage: [
       "Reduces fever and relieves mild to moderate pain, such as headaches and muscle aches.",
       "Lowers the risk of heart attack or stroke by preventing blood clots.",
@@ -27,7 +27,7 @@ const medicalProductData = [
     prodName: "Atorvastatin",
     productDesc:
       "Commonly used to lower cholesterol and reduce the risk of heart disease and stroke. It works by blocking an enzyme in the liver responsible for cholesterol production.",
-    imagePath: "/curemed-pharmacy/Atorvastatin.jpeg",
+    imagePath: "/Atorvastatin.jpeg",
     usage: [
       "Lowers high cholesterol and triglyceride levels.",
       "Reduces the risk of stroke and heart attack.",
@@ -49,7 +49,7 @@ const medicalProductData = [
     prodName: "Amoxicillin",
     productDesc:
       "An antibiotic used to treat various bacterial infections, including pneumonia, bronchitis, and infections of the ear, nose, throat, and skin.",
-    imagePath: "/curemed-pharmacy/Amoxicillin.jpeg",
+    imagePath: "/Amoxicillin.jpeg",
     usage: [
       "Prescribed for bacterial infections like pneumonia and bronchitis.",
       "Effective against ear, nose, throat, and skin infections.",
@@ -71,7 +71,7 @@ const medicalProductData = [
     prodName: "Amlodipine",
     productDesc:
       "A calcium channel blocker used to treat high blood pressure and chest pain (angina). It relaxes blood vessels, making it easier for blood to flow.",
-    imagePath: "/curemed-pharmacy/Amlodipine.png",
+    imagePath: "/Amlodipine.png",
     usage: [
       "Reduces high blood pressure and controls angina.",
       "Relaxes and widens blood vessels.",
@@ -93,7 +93,7 @@ const medicalProductData = [
     prodName: "Ibuprofen (Brufen)",
     productDesc:
       "A nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and lower fever. Often used for headaches, muscle pain, and arthritis.",
-    imagePath: "/curemed-pharmacy/Ibuprofen.jpg",
+    imagePath: "/Ibuprofen.jpg",
     usage: [
       "Relieves mild to moderate pain and reduces fever.",
       "Commonly used for headaches, muscle aches, and arthritis.",
@@ -115,7 +115,7 @@ const medicalProductData = [
     prodName: "Betamethasone",
     productDesc:
       "A corticosteroid medication used to treat inflammatory conditions like asthma, arthritis, and skin disorders by reducing swelling and redness.",
-    imagePath: "/curemed-pharmacy/Betamethasone.png",
+    imagePath: "/Betamethasone.png",
     usage: [
       "Applied to skin for inflammatory skin conditions.",
       "Taken orally or injected for severe allergic reactions.",
@@ -137,7 +137,7 @@ const medicalProductData = [
     prodName: "Bisoprolol",
     productDesc:
       "A beta-blocker used to treat high blood pressure and heart-related conditions by reducing heart rate and workload on the heart.",
-    imagePath: "/curemed-pharmacy/Bisoprolol.jpeg",
+    imagePath: "/Bisoprolol.jpeg",
     usage: [
       "Reduces heart rate and workload on the heart.",
       "Helps control high blood pressure and angina.",
@@ -159,7 +159,7 @@ const medicalProductData = [
     prodName: "Bupropion",
     productDesc:
       "An antidepressant used to treat major depressive disorder and seasonal affective disorder. It's also prescribed to help people quit smoking.",
-    imagePath: "/curemed-pharmacy/Bupropion.jpg",
+    imagePath: "/Bupropion.jpg",
     usage: [
       "Used to treat depression and seasonal affective disorder.",
       "Prescribed as an aid to quit smoking.",
@@ -181,7 +181,7 @@ const medicalProductData = [
     prodName: "Ciprofloxacin",
     productDesc:
       "An antibiotic used to treat bacterial infections, including urinary tract infections, respiratory infections, and certain types of gastroenteritis.",
-    imagePath: "/curemed-pharmacy/Ciprofloxacin.png",
+    imagePath: "/Ciprofloxacin.png",
     usage: [
       "Used for treating bacterial infections.",
       "Effective against urinary and respiratory infections.",
@@ -203,7 +203,7 @@ const medicalProductData = [
     prodName: "Clonazepam",
     productDesc:
       "A medication used to treat panic disorders and certain types of seizures. It belongs to the benzodiazepine class, which has a calming effect on the brain.",
-    imagePath: "/curemed-pharmacy/Clonazepam.jpeg",
+    imagePath: "/Clonazepam.jpeg",
     usage: [
       "Treats panic disorders and certain types of seizures.",
       "Used for short-term relief of anxiety symptoms.",
@@ -225,7 +225,7 @@ const medicalProductData = [
     prodName: "Cetirizine",
     productDesc:
       "An antihistamine used to relieve allergy symptoms like runny nose, sneezing, and itching. It's effective for both seasonal allergies and chronic urticaria.",
-    imagePath: "/curemed-pharmacy/Cetirizine.jpg",
+    imagePath: "/Cetirizine.jpg",
     usage: [
       "Relieves symptoms of seasonal allergies.",
       "Reduces itching and swelling in chronic hives.",
@@ -247,7 +247,7 @@ const medicalProductData = [
     prodName: "Citalopram",
     productDesc:
       "An antidepressant belonging to the selective serotonin reuptake inhibitor (SSRI) class. Used to treat major depression and sometimes anxiety disorders.",
-    imagePath: "/curemed-pharmacy/Citalopram.jpeg",
+    imagePath: "/Citalopram.jpeg",
     usage: [
       "Used for treating depression and anxiety.",
       "Taken orally once daily.",
